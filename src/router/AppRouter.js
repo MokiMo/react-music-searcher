@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Redirect,
   Switch
@@ -10,6 +10,7 @@ import PropTypes from "prop-types";
 import LoginForm from "../containers/Login/LoginForm";
 import Topbar from "../containers/Topbar/Topbar";
 import { routes, NotFoundPage } from "../config.js";
+import createHistory from "history/createBrowserHistory";
 
 //Helper for PrivateRoute
 const createRedirect = ({ location }) => ({
@@ -32,7 +33,7 @@ const PrivateRoute = ({ component: Component, authenticated, ...rest }) => {
 };
 
 const AppRouter = ({ authenticated, ...otherProps }) => (
-  <Router {...otherProps} basename={process.env.PUBLIC_URL}>
+  <Router {...otherProps} history={createHistory({ basename: process.env.PUBLIC_URL })}>
     <Fragment>
       {authenticated ? <Topbar /> : null}
       <Switch>
