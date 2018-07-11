@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import axios from "axios";
-import musicSearchActions from "../../redux/musicSearch/actions";
+import musicActions from "../../redux/musicSearch/actions";
 import appActions from "../../redux/app/actions";
 import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
@@ -12,7 +12,7 @@ import PropTypes from "prop-types";
 import Loading from "../../components/UI/Loading";
 import { API_KEY } from "./API_KEY";
 import uuidv4 from "uuid/v4";
-const { musicFound } = musicSearchActions;
+const { musicFound } = musicActions;
 const { startLoading, errorCaught, stopLoading } = appActions;
 
 const styles = theme => ({
