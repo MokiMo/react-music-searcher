@@ -32,7 +32,7 @@ const PrivateRoute = ({ component: Component, authenticated, ...rest }) => {
 };
 
 const AppRouter = ({ authenticated, ...otherProps }) => (
-  <Router {...otherProps}>
+  <Router {...otherProps} basename={process.env.PUBLIC_URL}>
     <Fragment>
       {authenticated ? <Topbar /> : null}
       <Switch>

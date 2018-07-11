@@ -47,7 +47,7 @@ class MusicSearch extends Component {
     const { input } = this.state;
     axios
       .get(
-        `http://ws.audioscrobbler.com/2.0/?method=track.search&track=${input}&api_key=${API_KEY}&format=json&limit=30`
+        `https://ws.audioscrobbler.com/2.0/?method=track.search&track=${input}&api_key=${API_KEY}&format=json&limit=30`
       )
       .then(response => {
         const tracksWithUUID = [];
