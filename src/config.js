@@ -59,8 +59,8 @@ const FavoriteMusic = props => (
 );
 
 export const routes = [
-  { path: "/SearchMusic", component: LayoutLastFmSearch },
-  { path: "/FavoriteMusic", component: FavoriteMusic },
+  { path: "/searchmusic", component: LayoutLastFmSearch },
+  { path: "/favoritemusic", component: FavoriteMusic },
   { path: "/loading", component: Loading },
   { path: "/dashboard", component: Dashboard },
   { path: "*", component: NotFoundPage }
@@ -68,8 +68,8 @@ export const routes = [
 
 export const SidebarTop = [
   { text: "Dashboard", icon: <InboxIcon />, route: "dashboard" },
-  { text: "Search Music", icon: <MusicNote />, route: "SearchMusic" },
-  { text: "Favorite Music", icon: <StarIcon />, route: "FavoriteMusic" },
+  { text: "Search Music", icon: <MusicNote />, route: "searchmusic" },
+  { text: "Favorite Music", icon: <StarIcon />, route: "favoritemusic" },
   { text: "E-Mails*", icon: <DraftsIcon />, route: "emails" }
 ];
 

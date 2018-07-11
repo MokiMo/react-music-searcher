@@ -35,10 +35,10 @@ const PrivateRoute = ({ component: Component, authenticated, ...rest }) => {
 const AppRouter = ({ authenticated, ...otherProps }) => (
   <Router {...otherProps} history={createHistory({ basename: process.env.PUBLIC_URL })}>
     <Fragment>
-      {authenticated ? <Topbar /> : null}
+      {authenticated && <Topbar />}
       <Switch>
         <Route path="/sign-in" component={() => <LoginForm />} />
-        <Route path="/NA" component={NotFoundPage} />
+        <Route path="/" component={NotFoundPage} />
         {routes.map(route => {
           return (
             <PrivateRoute
