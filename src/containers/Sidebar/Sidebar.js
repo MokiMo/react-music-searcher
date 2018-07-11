@@ -7,6 +7,7 @@ import { mailFolderListItems, otherMailFolderListItems } from "./tileData";
 import PropTypes from "prop-types";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
+import Typography from "@material-ui/core/Typography";
 
 const styles = {
   list: {
@@ -59,6 +60,10 @@ class SideDrawer extends Component {
             onKeyDown={this.toggleDrawer(false)}
           >
             {sideList}
+            <Divider />
+            <Typography variant="caption" align="center">
+            *Demo routes. <br/>Redirect to the start-page.
+          </Typography>
           </div>
         </Drawer>
       </div>

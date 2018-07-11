@@ -6,7 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Favorite from "./Favorite";
-
+import noFavoritesAdded from "./NoFavoritesAdded";
 const styles = theme => ({
   expansionPanel: {
     margin: 38
@@ -31,6 +31,12 @@ const styles = theme => ({
   heading: {
     fontSize: theme.typography.pxToRem(30),
     fontWeight: 500
+  },
+  Paper: {
+    marginLeft: 60,
+    marginRight: 60,
+    marginTop: 30,
+    padding: 15
   }
 });
 
@@ -70,7 +76,16 @@ class DisplayFavorites extends React.Component {
         )}
       </Grid>
     ) : (
-      <div>No favorites added!</div>
+      <Paper className={classes.Paper}>
+      <Typography
+        variant="display1"
+        align="center"
+        className={classes.Paper}
+        gutterBottom
+      >
+        Please search for music, <br/>then add them to your favorites.<br/><br/>
+      </Typography>
+    </Paper>
     );
   }
 }

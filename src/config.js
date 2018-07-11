@@ -70,11 +70,11 @@ export const SidebarTop = [
   { text: "Dashboard", icon: <InboxIcon />, route: "dashboard" },
   { text: "Search Music", icon: <MusicNote />, route: "SearchMusic" },
   { text: "Favorite Music", icon: <StarIcon />, route: "FavoriteMusic" },
-  { text: "E-Mails", icon: <DraftsIcon />, route: "emails" }
+  { text: "E-Mails*", icon: <DraftsIcon />, route: "emails" }
 ];
 
 export const SidebarBot = [
-  { text: "Alle Mails", icon: <MailIcon />, route: "allMails" },
-  { text: "Papierkorb", icon: <DeleteIcon />, route: "trash" },
-  { text: "Spam", icon: <ReportIcon />, route: "spam" }
+  { text: "All E-Mails*", icon: <MailIcon />, route: "all_emails" },
+  { text: "Trash*", icon: <DeleteIcon />, route: "trash" },
+  { text: "Spam*", icon: <ReportIcon />, route: "spam" }
 ];
