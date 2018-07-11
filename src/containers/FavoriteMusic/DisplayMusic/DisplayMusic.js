@@ -6,7 +6,6 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Favorite from "./Favorite";
-import noFavoritesAdded from "./NoFavoritesAdded";
 const styles = theme => ({
   expansionPanel: {
     margin: 38
