@@ -14,6 +14,6 @@ const actions = {
   favoriteMusicRemoved: name => ({
     type: actions.FAVORITE_MUSIC_REMOVED,
     name: name
-  }),
+  })
 };
 export default actions;

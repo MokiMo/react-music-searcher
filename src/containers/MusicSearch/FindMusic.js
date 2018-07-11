@@ -11,7 +11,7 @@ import Search from "@material-ui/icons/Search";
 import PropTypes from "prop-types";
 import Loading from "../../components/UI/Loading";
 import { API_KEY } from "./API_KEY";
-import uuidv4 from 'uuid/v4'
+import uuidv4 from "uuid/v4";
 const { musicFound } = musicSearchActions;
 const { startLoading, errorCaught, stopLoading } = appActions;
 
@@ -103,12 +103,9 @@ MusicSearch.propTypes = {
 };
 
 const styledMusicSearch = withStyles(styles)(MusicSearch);
-export default connect(
-  null,
-  {
-    musicFound,
-    startLoading,
-    errorCaught,
-    stopLoading
-  }
-)(styledMusicSearch);
+export default connect(null, {
+  musicFound,
+  startLoading,
+  errorCaught,
+  stopLoading
+})(styledMusicSearch);

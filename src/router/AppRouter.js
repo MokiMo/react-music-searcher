@@ -9,7 +9,7 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import LoginForm from "../containers/Login/LoginForm";
 import Topbar from "../containers/Topbar/Topbar";
-import {routes, NotFoundPage} from "../config.js"
+import { routes, NotFoundPage } from "../config.js";
 
 //Helper for PrivateRoute
 const createRedirect = ({ location }) => ({
@@ -31,7 +31,6 @@ const PrivateRoute = ({ component: Component, authenticated, ...rest }) => {
   return <Route {...rest} render={render} />;
 };
 
-
 const AppRouter = ({ authenticated, ...otherProps }) => (
   <Router {...otherProps}>
     <Fragment>
@@ -44,7 +43,7 @@ const AppRouter = ({ authenticated, ...otherProps }) => (
             <PrivateRoute
               key={route.path}
               path={route.path}
-              component={route.component} 
+              component={route.component}
               authenticated={authenticated}
             />
           );

@@ -1,18 +1,18 @@
 const actions = {
-  LOADING: 'LOADING',
-  ERROR: 'ERROR',
-  NO_ERRORS: 'NO_ERRORS',
+  LOADING: "LOADING",
+  ERROR: "ERROR",
+  NO_ERRORS: "NO_ERRORS",
 
   startLoading: () => ({
-    type: actions.LOADING,
+    type: actions.LOADING
   }),
-  
+
   errorCaught: () => ({
-    type: actions.ERROR,
+    type: actions.ERROR
   }),
 
   stopLoading: () => ({
-  	type: actions.NO_ERRORS,
-  }),
+    type: actions.NO_ERRORS
+  })
 };
 export default actions;

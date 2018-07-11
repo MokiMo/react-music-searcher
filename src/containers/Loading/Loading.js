@@ -1,14 +1,9 @@
 import React from "react";
 
 class App extends React.Component {
-
   render() {
-    return (
-        "Loads"
-    );
+    return "Loads";
   }
 }
 
 export default App;
-
-

@@ -26,7 +26,7 @@ class SideDrawer extends Component {
     open: false
   };
 
-  toggleDrawer = (open) => () => {
+  toggleDrawer = open => () => {
     this.setState({
       open: open
     });
@@ -51,10 +51,7 @@ class SideDrawer extends Component {
         >
           <MenuIcon />
         </IconButton>
-        <Drawer
-          open={this.state.open}
-          onClose={this.toggleDrawer(false)}
-        >
+        <Drawer open={this.state.open} onClose={this.toggleDrawer(false)}>
           <div
             tabIndex={0}
             role="button"
