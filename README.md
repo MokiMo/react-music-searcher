@@ -1,7 +1,7 @@
 # [ Live Demo](https://mokimo.github.io/react-music-searcher/#/ "# Live Demo")
 
 
-###Technologies
+### Technologies
 
 - React
 - Redux 
@@ -13,7 +13,7 @@
 ------------
 
 
-###Features
+### Features
 - React-Router implementation
 - Global store (Redux)
 - Login scenario mockup
