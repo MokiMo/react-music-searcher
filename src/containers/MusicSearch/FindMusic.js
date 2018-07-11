@@ -50,11 +50,10 @@ class MusicSearch extends Component {
         `https://ws.audioscrobbler.com/2.0/?method=track.search&track=${input}&api_key=${API_KEY}&format=json&limit=30`
       )
       .then(response => {
-        const tracksWithUUID = [];
-        response.data.results.trackmatches.track.forEach(track => {
-          const tempTrack = { ...track, uuid: uuidv4() };
-          tracksWithUUID.push(tempTrack);
-        });
+        const tracksWithUUID = response.data.results.trackmatches.track.map(track => ({
+         ...track, 
+        uuid: uuidv4() 
+        }))
         this.props.musicFound({
           tracks: tracksWithUUID
         });
