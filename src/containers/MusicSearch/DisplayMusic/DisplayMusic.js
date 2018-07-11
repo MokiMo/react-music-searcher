@@ -52,7 +52,7 @@ class displayTracks extends React.Component {
 				<ExpansionPanelDetails>
 					<Grid container spacing={0} justify="center">
 						{tracks.map(track => (
-							<Paper className={classes.margin} key={track.name}>
+							<Paper className={classes.margin} key={track.uuid}>
 								<div className="overlay">
 									<img
 										src={track.image["3"]["#text"]}
