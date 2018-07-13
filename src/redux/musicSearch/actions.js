@@ -5,7 +5,7 @@ const actions = {
 
   musicFound: payload => ({
     type: actions.MUSIC_FOUND,
-    payload: payload
+    payload
   }),
   favoriteMusicAdded: name => ({
     type: actions.FAVORITE_MUSIC_ADDED,
