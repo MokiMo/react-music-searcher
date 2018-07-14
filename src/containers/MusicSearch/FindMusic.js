@@ -45,6 +45,8 @@ class MusicSearch extends Component {
   search = () => {
     this.props.startLoading();
     const { input } = this.state;
+    //Get the api key from last.fm
+    // create API_KEY.js in the same directory -> export const API_KEY = "key";
     axios
       .get(
         `https://ws.audioscrobbler.com/2.0/?method=track.search&track=${input}&api_key=${API_KEY}&format=json&limit=30`
