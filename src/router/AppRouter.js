@@ -9,7 +9,7 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import LoginForm from "../containers/Login/LoginForm";
 import Topbar from "../containers/Topbar/Topbar";
-import { routes, NotFoundPage } from "../config.js";
+import { routes } from "../config.js";
 import createHistory from "history/createBrowserHistory";
 
 //Helper for PrivateRoute
@@ -38,7 +38,6 @@ const AppRouter = ({ authenticated, ...otherProps }) => (
       {authenticated && <Topbar />}
       <Switch>
         <Route path="/sign-in" component={() => <LoginForm />} />
-        <Route path="/" component={NotFoundPage} />
         {routes.map(route => {
           return (
             <PrivateRoute
