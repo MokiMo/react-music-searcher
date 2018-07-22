@@ -2,29 +2,31 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import { NavLink } from 'react-router-dom';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
 
-const style = {
+const styles = theme => ({
   Paper: {
-    marginLeft: 60,
-    marginRight: 60,
-    marginTop: 30,
-    padding: 15,
+    margin: 2 * theme.spacing.unit,
+    padding: 1 * theme.spacing.unit,
+    textAlign: 'center',
   },
-};
-const Dashboard = () => (
-  <Paper style={style.Paper}>
+});
+
+const Dashboard = ({ classes }) => (
+  <Paper className={classes.Paper}>
     <Typography
       variant="display1"
       align="center"
-      style={style.Paper}
+      className={classes.Paper}
       gutterBottom
     >
-      Dashboard.<br />
-      <br />
-      {' <Business Content>'}
+      Dashboard.
+      <br />...<br />...<br />...<br />
+      Business Content
       <br />...<br />...<br />...
     </Typography>
-    <Typography variant="display1" align="center" style={style.Paper}>
+    <Typography variant="display1" align="center" className={classes.Paper}>
       Demo Features<br />
       - <NavLink to="/SearchMusic">Search Music</NavLink>
       <br />
@@ -33,4 +35,8 @@ const Dashboard = () => (
   </Paper>
 );
 
-export default Dashboard;
+Dashboard.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(Dashboard);

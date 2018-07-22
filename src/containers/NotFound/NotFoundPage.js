@@ -2,34 +2,37 @@ import React, { Fragment } from 'react';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import { NavLink } from 'react-router-dom';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
 
-const style = {
+const styles = theme => ({
   Paper: {
-    marginLeft: 60,
-    marginRight: 60,
-    marginTop: 30,
-    padding: 15,
+    margin: 2 * theme.spacing.unit,
+    padding: 1 * theme.spacing.unit,
+    textAlign: 'center',
   },
-};
-const NotFoundPage = () => (
+});
+
+const NotFoundPage = ({ classes }) => (
   <Fragment>
-    <Paper style={style.Paper}>
-      <Typography variant="display1" align="center" style={style.Paper}>
+    <Paper className={classes.Paper}>
+      <Typography variant="display1" align="center" className={classes.Paper}>
         - <NavLink to="/SearchMusic">Search Music</NavLink>
         <br />
         - <NavLink to="/FavoriteMusic">Favorite Music</NavLink>
       </Typography>
 
-      <Typography variant="display1" align="center" style={style.Paper}>
+      <Typography variant="display1" align="center" className={classes.Paper}>
         - React<br />
         - Redux<br />
         - Redux Sagas <br />
         - React Router<br />
         - Code splitting<br />
         - Material UI <br />
+        <br />
       </Typography>
 
-      <Typography variant="caption" align="center" style={style.Paper}>
+      <Typography variant="caption" align="center" className={classes.Paper}>
         Disclaimer: This app was made solely to demonstrate basic knowledge.
         Alot of the used technologies, such as redux, redux sagas and axios are
         too much for a project like this. But they lay a nice foundation for
@@ -43,4 +46,8 @@ const NotFoundPage = () => (
   </Fragment>
 );
 
-export default NotFoundPage;
+NotFoundPage.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(NotFoundPage);

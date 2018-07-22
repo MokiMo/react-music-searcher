@@ -17,10 +17,7 @@ const { startLoading, errorCaught, stopLoading } = appActions;
 
 const styles = theme => ({
   Paper: {
-    marginLeft: 5 * theme.spacing.unit,
-    marginRight: 5 * theme.spacing.unit,
-    marginTop: 2 * theme.spacing.unit,
-    marginBottom: 2 * theme.spacing.unit,
+    margin: 2 * theme.spacing.unit,
     padding: 20,
     textAlign: 'center',
   },

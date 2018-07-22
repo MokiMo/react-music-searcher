@@ -13,11 +13,11 @@ import LoadImage from './LoadImage';
 
 const styles = theme => ({
   expansionPanel: {
-    margin: 38,
+    margin: 15,
   },
   margin: {
     padding: 10,
-    maxWidth: 174,
+    width: 300,
     margin: 10,
   },
   track: {
@@ -55,7 +55,7 @@ const MapMusic = props => (
               url={track.url}
             />
             <Typography variant="display1" className={props.classes.track}>
-              {track.name} <Favorite name={track.name} />
+              {track.name} <Favorite trackInfo={track} />
             </Typography>
             <Typography variant="body2" className={props.classes.artist}>
               {track.artist}
