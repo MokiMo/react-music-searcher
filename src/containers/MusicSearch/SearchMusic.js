@@ -33,7 +33,7 @@ const styles = theme => ({
 class MusicSearch extends Component {
   state = {
     input: '',
-    searchLimit: 3,
+    searchLimit: 30,
   };
 
   handleChange = event => {
