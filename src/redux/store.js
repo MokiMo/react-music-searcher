@@ -1,5 +1,6 @@
-import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
+/* eslint no-undef: 0 */
 
+import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import reducers from './reducers';
 import rootSaga from './sagas';
