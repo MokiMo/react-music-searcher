@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import { withStyles } from '@material-ui/core/styles';
-import { ScaleLoader as BeatLoader } from 'react-spinners';
+import { ScaleLoader } from 'react-spinners';
 
 const styles = {
   loader: {
@@ -36,7 +36,7 @@ class LoadImage extends React.Component {
     if (loading) {
       return (
         <div className={classes.loader}>
-          <BeatLoader color="rgba(0, 0, 0, 0.54)" loading={loading} />
+          <ScaleLoader color="rgba(0, 0, 0, 0.54)" loading={loading} />
         </div>
       );
     }

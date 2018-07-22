@@ -7,6 +7,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import DeleteIcon from '@material-ui/icons/Delete';
 import ReportIcon from '@material-ui/icons/Report';
 import DynamicImport from './router/DynamicImport';
+import Loading from './containers/Loading/Loading';
 
 const dev = true;
 export const authenticated = !!dev;
@@ -17,25 +18,13 @@ export const authenticated = !!dev;
 // 3) add to sidebar
 export const NotFoundPage = props => (
   <DynamicImport load={() => import('./containers/NotFound/NotFoundPage')}>
-    {Component =>
-      Component === null ? <p>Loading</p> : <Component {...props} />
-    }
+    {Component => (Component === null ? <Loading /> : <Component {...props} />)}
   </DynamicImport>
 );
 
 const Dashboard = props => (
   <DynamicImport load={() => import('./containers/Dashboard/Dashboard')}>
-    {Component =>
-      Component === null ? <p>Loading</p> : <Component {...props} />
-    }
-  </DynamicImport>
-);
-
-const Loading = props => (
-  <DynamicImport load={() => import('./containers/Loading/Loading')}>
-    {Component =>
-      Component === null ? <p>Loading</p> : <Component {...props} />
-    }
+    {Component => (Component === null ? <Loading /> : <Component {...props} />)}
   </DynamicImport>
 );
 
@@ -43,25 +32,20 @@ const LayoutSearchMusic = props => (
   <DynamicImport
     load={() => import('./containers/MusicSearch/LayoutSearchMusic')}
   >
-    {Component =>
-      Component === null ? <p>Loading</p> : <Component {...props} />
-    }
+    {Component => (Component === null ? <Loading /> : <Component {...props} />)}
   </DynamicImport>
 );
 const FavoriteMusic = props => (
   <DynamicImport
     load={() => import('./containers/FavoriteMusic/FavoriteMusic')}
   >
-    {Component =>
-      Component === null ? <p>Loading</p> : <Component {...props} />
-    }
+    {Component => (Component === null ? <Loading /> : <Component {...props} />)}
   </DynamicImport>
 );
 
 export const routes = [
   { path: '/searchmusic', component: LayoutSearchMusic },
   { path: '/favoritemusic', component: FavoriteMusic },
-  { path: '/loading', component: Loading },
   { path: '/dashboard', component: Dashboard },
   { path: '*', component: NotFoundPage },
 ];
