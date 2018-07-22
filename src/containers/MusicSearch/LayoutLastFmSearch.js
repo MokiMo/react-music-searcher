@@ -10,7 +10,8 @@ class MusicSearchLastFM extends Component {
       <Fragment>
         <ErrorMessage />
         <SearchMusic />
-        <DisplayMusic />
+        <DisplayMusic /><br/>
+        <div/>
       </Fragment>
     );
   }

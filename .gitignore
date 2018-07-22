@@ -24,3 +24,4 @@ todo.txt
 
 # add a LAST_FM Api key locally
 src/containers/MusicSearch/API_KEY.js
+yarn.lock
