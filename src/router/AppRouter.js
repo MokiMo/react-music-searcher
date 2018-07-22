@@ -7,10 +7,9 @@ import {
 } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import createHistory from 'history/createBrowserHistory';
 import LoginForm from '../containers/Login/LoginForm';
 import Topbar from '../containers/Topbar/Topbar';
-import { routes } from '../config.js';
+import { routes } from '../config';
 
 // Helper for PrivateRoute
 const createRedirect = ({ location }) => ({
@@ -33,10 +32,7 @@ const PrivateRoute = ({ component: Component, authenticated, ...rest }) => {
 };
 
 const AppRouter = ({ authenticated, ...otherProps }) => (
-  <Router
-    {...otherProps}
-    history={createHistory({ basename: process.env.PUBLIC_URL })}
-  >
+  <Router {...otherProps}>
     <Fragment>
       {authenticated && <Topbar />}
       <Switch>

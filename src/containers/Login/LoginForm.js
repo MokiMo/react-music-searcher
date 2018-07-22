@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import authActions from "../../redux/auth/actions";
-import appActions from "../../redux/app/actions";
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-import Typography from "@material-ui/core/Typography";
-import TextField from "@material-ui/core/TextField";
-import Paper from "@material-ui/core/Paper";
-import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
-import { Redirect } from "react-router-dom";
-import Loading from "../../components/UI/Loading";
+import Typography from '@material-ui/core/Typography';
+import TextField from '@material-ui/core/TextField';
+import Paper from '@material-ui/core/Paper';
+import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
+import { Redirect } from 'react-router-dom';
+import appActions from '../../redux/app/actions';
+import authActions from '../../redux/auth/actions';
+import Loading from '../../components/UI/Loading';
 
 const { startLoading, errorCaught, stopLoading } = appActions;
 
@@ -17,28 +17,28 @@ const { auth } = authActions;
 
 const style = {
   Paper: {
-    marginTop: 100
+    marginTop: 100,
   },
   Button: {
-    marginTop: 20
+    marginTop: 20,
   },
   paddingTop: {
-    paddingTop: 20
+    paddingTop: 20,
   },
   paddingBot: {
-    padding: 20
-  }
+    padding: 20,
+  },
 };
 
 export class Login extends Component {
   state = {
-    user: "1",
-    pass: "1"
+    user: '1',
+    pass: '1',
   };
 
   handleChange = ({ target: { name, value } }) => {
     this.setState({
-      [name]: value
+      [name]: value,
     });
   };
 
@@ -46,9 +46,10 @@ export class Login extends Component {
     e.preventDefault();
     this.props.startLoading();
     const { user, pass } = this.state;
-    const data = { user: user, pass: pass };
+    const data = { user, pass };
     this.props.auth(data);
   };
+
   render() {
     const { user, pass } = this.state;
     const { authenticated } = this.props;
@@ -133,12 +134,15 @@ export class Login extends Component {
 function mapStateToProps(state) {
   return {
     loading: state.auth.loading,
-    authenticated: state.auth.authenticated
+    authenticated: state.auth.authenticated,
   };
 }
-export default connect(mapStateToProps, {
-  auth,
-  startLoading,
-  errorCaught,
-  stopLoading
-})(Login);
+export default connect(
+  mapStateToProps,
+  {
+    auth,
+    startLoading,
+    errorCaught,
+    stopLoading,
+  }
+)(Login);

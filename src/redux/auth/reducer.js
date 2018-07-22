@@ -1,11 +1,11 @@
-import actions from "./actions";
-import { authenticated } from "../../config";
+import actions from './actions';
+import { authenticated } from '../../config';
 
 export const initState = {
-  user: "",
-  pass: "",
-  authenticated: authenticated,
-  loading: false
+  user: '',
+  pass: '',
+  authenticated,
+  loading: false,
 };
 
 export default function appReducer(state = initState, action) {
@@ -13,25 +13,25 @@ export default function appReducer(state = initState, action) {
     case actions.AUTH:
       return {
         ...state,
-        loading: true
+        loading: true,
       };
     case actions.AUTH_SUCCESS:
       return {
         ...state,
         ...action.payload,
         authenticated: true,
-        loading: false
+        loading: false,
       };
     case actions.AUTH_FAIL:
       return {
         ...state,
         authenticated: false,
-        loading: "error"
+        loading: 'error',
       };
     case actions.LOGOUT:
       return {
         ...state,
-        authenticated: false
+        authenticated: false,
       };
     default:
       return state;

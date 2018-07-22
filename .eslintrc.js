@@ -14,6 +14,7 @@ module.exports = {
       "class-methods-use-this": 0,
       "no-console": 0,
       "no-nested-ternary": 0,
+      "no-underscore-dangle": 0,
       "prettier/prettier": [
         "error",
         { "singleQuote": true, "trailingComma": true },

@@ -1,8 +1,8 @@
-import actions from "./actions";
+import actions from './actions';
 
 export const initState = {
   loading: false,
-  error: false
+  error: false,
 };
 
 export default function musicSearchReducer(state = initState, action) {
@@ -10,17 +10,17 @@ export default function musicSearchReducer(state = initState, action) {
     case actions.LOADING:
       return {
         ...state,
-        loading: true
+        loading: true,
       };
     case actions.ERROR:
       return {
         ...state,
         loading: false,
-        error: true
+        error: true,
       };
     case actions.NO_ERRORS:
       return {
-        ...initState
+        ...initState,
       };
     default:
       return state;
