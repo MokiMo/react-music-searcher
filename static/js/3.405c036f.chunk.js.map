@@ -1,0 +1,1 @@
+{"version":3,"sources":["containers/Loading/Loading.js"],"names":["App","a","Component","__webpack_exports__"],"mappings":"42BAEMA,kOAEF,MAAO,2NAFOC,EAAMC,WAMxBC,EAAA","file":"static/js/3.405c036f.chunk.js","sourcesContent":["import React from \"react\";\n\nclass App extends React.Component {\n  render() {\n    return \"Loads\";\n  }\n}\n\nexport default App;\n"],"sourceRoot":""}
