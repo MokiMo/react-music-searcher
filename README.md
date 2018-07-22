@@ -1,5 +1,6 @@
 # [ Live Demo](https://mokimo.github.io/react-music-searcher/#/searchmusic "# Live Demo")
 
+# [Demo Video](https://drive.google.com/file/d/1-TsUCK9qQTJq-LpcsdzV4D-03E0o1o6x/view "# Demo Video")
 
 ### Technologies
 
@@ -14,13 +15,29 @@
 
 
 ### Features
+- Single Page Application with React
 - React-Router implementation
-- Global store (Redux)
+- Global store using redux
 - Login scenario mockup
 - Dashboard Navigation
 - **Search for music**
 - **Add them favorites**
-- Re-route unkown pages / no auth
+- Polyfills for Internet Explorer
+- Re-route unkown pages or no no auth
+- Looks great on Desktop, Tablets, Smartphones  - (most of it done, rest is work in progress)
+
+------------
+
+
+### To do - work in progress
+
+- Unit Tests
+- Eye catchers on Dashboard
+- Optimize layout - Logout for example
+- Backend: Firebase would fit this scope
+- Statistics on data usage, music found, etc.
+- Playable Music - clicking on a found track, just redirects to last.fm
+
 
 
 ------------
