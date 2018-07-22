@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{419:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n),c=a(29),i=a(439);t.default=Object(c.b)(function(e){return{favorites:e.musicSearch.favorites}})(function(e){var t=e.favorites;return r.a.createElement(i.a,{tracks:t,name:"favorites"})})}}]);
+//# sourceMappingURL=1.a346443f.chunk.js.map
