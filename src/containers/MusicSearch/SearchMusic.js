@@ -40,6 +40,7 @@ class MusicSearch extends Component {
     this.setState({ input: event.target.value });
   };
 
+  // get data for tracks || albums || artists from last.fm
   search = () => {
     this.props.startLoading();
     const { input, searchLimit } = this.state;
@@ -72,6 +73,7 @@ class MusicSearch extends Component {
       });
   };
 
+  // usually, an unique identifier should be provided by the backend
   addUUID(response) {
     return response.map(item => ({
       ...item,

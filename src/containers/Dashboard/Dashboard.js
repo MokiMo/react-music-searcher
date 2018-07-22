@@ -28,9 +28,9 @@ const Dashboard = ({ classes }) => (
     </Typography>
     <Typography variant="display1" align="center" className={classes.Paper}>
       Demo Features<br />
-      - <NavLink to="/SearchMusic">Search Music</NavLink>
+      - <NavLink to="/searchmusic">Search Music</NavLink>
       <br />
-      - <NavLink to="/FavoriteMusic">Favorite Music</NavLink>
+      - <NavLink to="/favoritemusic">Favorite Music</NavLink>
     </Typography>
   </Paper>
 );

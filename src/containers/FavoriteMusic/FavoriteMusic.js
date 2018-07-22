@@ -1,7 +1,15 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
-import DisplayMusic from './DisplayMusic/DisplayMusic';
+import MapMusic from '../MusicSearch/DisplayMusic/MapMusic';
 
-const FavoriteMusic = () => <DisplayMusic />;
+const FavoriteMusic = ({ favorites }) => (
+  <MapMusic tracks={favorites} name="favorites" />
+);
+function mapStateToProps(state) {
+  return {
+    favorites: state.musicSearch.favorites,
+  };
+}
 
-export default FavoriteMusic;
+export default connect(mapStateToProps)(FavoriteMusic);

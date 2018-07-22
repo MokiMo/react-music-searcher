@@ -1,4 +1,4 @@
-# [ Live Demo](https://mokimo.github.io/react-music-searcher/#/SearchMusic "# Live Demo")
+# [ Live Demo](https://mokimo.github.io/react-music-searcher/#/searchmusic "# Live Demo")
 
 
 ### Technologies

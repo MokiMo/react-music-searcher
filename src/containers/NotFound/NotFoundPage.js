@@ -13,13 +13,14 @@ const styles = theme => ({
   },
 });
 
+// Standard component for routes that don't exist
 const NotFoundPage = ({ classes }) => (
   <Fragment>
     <Paper className={classes.Paper}>
       <Typography variant="display1" align="center" className={classes.Paper}>
-        - <NavLink to="/SearchMusic">Search Music</NavLink>
+        - <NavLink to="/searchmusic">Search Music</NavLink>
         <br />
-        - <NavLink to="/FavoriteMusic">Favorite Music</NavLink>
+        - <NavLink to="/favoritemusic">Favorite Music</NavLink>
       </Typography>
 
       <Typography variant="display1" align="center" className={classes.Paper}>

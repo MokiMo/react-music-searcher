@@ -21,31 +21,39 @@ class Favorite extends React.Component {
     favorite: false,
   };
 
-  addMusic = name => {
+  // in real world, you wouldn't alter the favorite state like that but have a seperate component
+  // in this example, it's the optimal way, since the display is very equal to MapMusic
+  componentDidMount() {
+    if (this.props.favorite) {
+      this.setState({ favorite: true });
+    }
+  }
+
+  addMusic = track => {
     this.setState({
       favorite: true,
     });
-    this.props.favoriteMusicAdded(name);
+    this.props.favoriteMusicAdded(track);
   };
 
-  removeMusic = name => {
+  removeMusic = track => {
     this.setState({
       favorite: false,
     });
-    this.props.favoriteMusicRemoved(name);
+    this.props.favoriteMusicRemoved(track);
   };
 
   render() {
-    const { classes, name } = this.props;
+    const { classes, track } = this.props;
     return this.state.favorite ? (
       <FavoriteIcon
         className={classes.icon}
-        onClick={() => this.removeMusic(name)}
+        onClick={() => this.removeMusic(track)}
       />
     ) : (
       <FavoriteBorder
         className={classes.icon}
-        onClick={() => this.addMusic(name)}
+        onClick={() => this.addMusic(track)}
       />
     );
   }

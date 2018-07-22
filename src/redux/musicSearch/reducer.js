@@ -16,15 +16,20 @@ export default function musicSearchReducer(state = initState, action) {
         albums: action.payload.albums,
         artists: action.payload.artists,
       };
+    // !== duplicate - add to favorites
     case actions.FAVORITE_MUSIC_ADDED:
-      return {
-        ...state,
-        favorites: [...state.favorites, action.name],
-      };
+      return state.favorites.findIndex(
+        el => el.name === action.payload.name
+      ) === -1
+        ? {
+            ...state,
+            favorites: [...state.favorites, action.payload],
+          }
+        : { ...state };
     case actions.FAVORITE_MUSIC_REMOVED:
       return {
         ...state,
-        favorites: state.favorites.filter(music => music !== action.name),
+        favorites: state.favorites.filter(music => music !== action.payload),
       };
     default:
       return state;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
@@ -14,6 +15,10 @@ import LoadImage from './LoadImage';
 const styles = theme => ({
   expansionPanel: {
     margin: 15,
+  },
+  expansionPanelDetails: {
+    padding: 0,
+    paddingBottom: 15,
   },
   margin: {
     padding: 10,
@@ -36,6 +41,9 @@ const styles = theme => ({
     fontSize: theme.typography.pxToRem(30),
     fontWeight: 500,
   },
+  center: {
+    textAlign: 'center',
+  },
 });
 
 const MapMusic = props => (
@@ -45,7 +53,7 @@ const MapMusic = props => (
         {props.name}
       </Typography>
     </ExpansionPanelSummary>
-    <ExpansionPanelDetails>
+    <ExpansionPanelDetails className={props.classes.expansionPanelDetails}>
       <Grid container spacing={0} justify="center">
         {props.tracks.map(track => (
           <Paper className={props.classes.margin} key={track.uuid}>
@@ -55,13 +63,25 @@ const MapMusic = props => (
               url={track.url}
             />
             <Typography variant="display1" className={props.classes.track}>
-              {track.name} <Favorite trackInfo={track} />
+              {track.name}{' '}
+              <Favorite track={track} favorite={props.name === 'favorites'} />
             </Typography>
             <Typography variant="body2" className={props.classes.artist}>
               {track.artist}
             </Typography>
           </Paper>
         ))}
+        {props.tracks.length <= 0 && (
+          <Typography
+            className={props.classes.expansionPanel}
+            variant="display1"
+          >
+            <div className={props.classes.center}>
+              No favorites have been added.<hr />
+              <NavLink to="/searchmusic">Search Music</NavLink>
+            </div>
+          </Typography>
+        )}
       </Grid>
     </ExpansionPanelDetails>
   </ExpansionPanel>

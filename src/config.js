@@ -39,9 +39,9 @@ const Loading = props => (
   </DynamicImport>
 );
 
-const LayoutLastFmSearch = props => (
+const LayoutSearchMusic = props => (
   <DynamicImport
-    load={() => import('./containers/MusicSearch/LayoutLastFmSearch')}
+    load={() => import('./containers/MusicSearch/LayoutSearchMusic')}
   >
     {Component =>
       Component === null ? <p>Loading</p> : <Component {...props} />
@@ -59,7 +59,7 @@ const FavoriteMusic = props => (
 );
 
 export const routes = [
-  { path: '/searchmusic', component: LayoutLastFmSearch },
+  { path: '/searchmusic', component: LayoutSearchMusic },
   { path: '/favoritemusic', component: FavoriteMusic },
   { path: '/loading', component: Loading },
   { path: '/dashboard', component: Dashboard },
