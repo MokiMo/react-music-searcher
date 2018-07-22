@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
 
 import MapMusic from '../MusicSearch/DisplayMusic/MapMusic';
 
 const FavoriteMusic = ({ favorites }) => (
-  <MapMusic tracks={favorites} name="favorites" />
+  <Fragment>
+    <MapMusic tracks={favorites} name="favorites" />
+    <br />
+  </Fragment>
 );
 function mapStateToProps(state) {
   return {
