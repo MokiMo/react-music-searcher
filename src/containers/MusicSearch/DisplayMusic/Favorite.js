@@ -1,36 +1,40 @@
-import React from "react";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import musicSearchActions from "../../../redux/musicSearch/actions";
+import React from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import {
+  favoriteMusicAdded,
+  favoriteMusicRemoved,
+} from '../../../redux/musicSearch/actions';
 
-const { favoriteMusicAdded, favoriteMusicRemoved } = musicSearchActions;
-
-const styles = theme => ({
+const styles = () => ({
   icon: {
     fontSize: 18,
-    paddingLeft: 5
-  }
+    paddingLeft: 5,
+  },
 });
 
 class Favorite extends React.Component {
   state = {
-    favorite: false
+    favorite: false,
   };
+
   addMusic = name => {
     this.setState({
-      favorite: true
+      favorite: true,
     });
     this.props.favoriteMusicAdded(name);
   };
+
   removeMusic = name => {
     this.setState({
-      favorite: false
+      favorite: false,
     });
     this.props.favoriteMusicRemoved(name);
   };
+
   render() {
     const { classes, name } = this.props;
     return this.state.favorite ? (
@@ -48,10 +52,11 @@ class Favorite extends React.Component {
 }
 
 Favorite.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 const styledFavorite = withStyles(styles)(Favorite);
-export default connect(null, { favoriteMusicAdded, favoriteMusicRemoved })(
-  styledFavorite
-);
+export default connect(
+  null,
+  { favoriteMusicAdded, favoriteMusicRemoved }
+)(styledFavorite);
