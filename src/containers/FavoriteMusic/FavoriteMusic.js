@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import DisplayMusic from "./DisplayMusic/DisplayMusic";
+import DisplayMusic from './DisplayMusic/DisplayMusic';
 
 const FavoriteMusic = () => <DisplayMusic />;
 

@@ -1,5 +1,5 @@
-import React from "react";
-import DynamicImport from "./DynamicImport";
+import React from 'react';
+import DynamicImport from './DynamicImport';
 
 export const AsyncRoute = props => (
   <DynamicImport load={() => import(props.path)}>

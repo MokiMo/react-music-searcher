@@ -1,23 +1,23 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 import {
   HashRouter as Router,
   Route,
   Redirect,
-  Switch
-} from "react-router-dom";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
-import LoginForm from "../containers/Login/LoginForm";
-import Topbar from "../containers/Topbar/Topbar";
-import { routes } from "../config.js";
-import createHistory from "history/createBrowserHistory";
+  Switch,
+} from 'react-router-dom';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import createHistory from 'history/createBrowserHistory';
+import LoginForm from '../containers/Login/LoginForm';
+import Topbar from '../containers/Topbar/Topbar';
+import { routes } from '../config.js';
 
-//Helper for PrivateRoute
+// Helper for PrivateRoute
 const createRedirect = ({ location }) => ({
-  pathname: "/sign-in",
+  pathname: '/sign-in',
   state: {
-    returnURL: location.pathname
-  }
+    returnURL: location.pathname,
+  },
 });
 
 // Ensures the user is redirected correctly, depending on the authentication status
@@ -33,33 +33,34 @@ const PrivateRoute = ({ component: Component, authenticated, ...rest }) => {
 };
 
 const AppRouter = ({ authenticated, ...otherProps }) => (
-  <Router {...otherProps} history={createHistory({ basename: process.env.PUBLIC_URL })}>
+  <Router
+    {...otherProps}
+    history={createHistory({ basename: process.env.PUBLIC_URL })}
+  >
     <Fragment>
       {authenticated && <Topbar />}
       <Switch>
         <Route path="/sign-in" component={() => <LoginForm />} />
-        {routes.map(route => {
-          return (
-            <PrivateRoute
-              key={route.path}
-              path={route.path}
-              component={route.component}
-              authenticated={authenticated}
-            />
-          );
-        })}
+        {routes.map(route => (
+          <PrivateRoute
+            key={route.path}
+            path={route.path}
+            component={route.component}
+            authenticated={authenticated}
+          />
+        ))}
       </Switch>
     </Fragment>
   </Router>
 );
 
 AppRouter.propTypes = {
-  authenticated: PropTypes.bool.isRequired
+  authenticated: PropTypes.bool.isRequired,
 };
 
 function mapStateToProps(state) {
   return {
-    authenticated: state.auth.authenticated
+    authenticated: state.auth.authenticated,
   };
 }
 export default connect(mapStateToProps)(AppRouter);

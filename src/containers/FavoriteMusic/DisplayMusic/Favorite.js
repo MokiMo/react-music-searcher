@@ -19,6 +19,7 @@ class Favorite extends React.Component {
   state = {
     favorite: true
   };
+
   addMusic = name => {
     this.setState({
       favorite: true

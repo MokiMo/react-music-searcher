@@ -1,37 +1,38 @@
-import React, { Component } from "react";
-import { withStyles } from "@material-ui/core/styles";
-import Drawer from "@material-ui/core/Drawer";
-import List from "@material-ui/core/List";
-import Divider from "@material-ui/core/Divider";
-import { mailFolderListItems, otherMailFolderListItems } from "./tileData";
-import PropTypes from "prop-types";
-import IconButton from "@material-ui/core/IconButton";
-import MenuIcon from "@material-ui/icons/Menu";
-import Typography from "@material-ui/core/Typography";
+import React, { Component } from 'react';
+import { withStyles } from '@material-ui/core/styles';
+import Drawer from '@material-ui/core/Drawer';
+import List from '@material-ui/core/List';
+import Divider from '@material-ui/core/Divider';
+import PropTypes from 'prop-types';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import Typography from '@material-ui/core/Typography';
+import { mailFolderListItems, otherMailFolderListItems } from './tileData';
 
 const styles = {
   list: {
-    width: 250
+    width: 250,
   },
   fullList: {
-    width: "auto"
+    width: 'auto',
   },
   menuButton: {
     marginLeft: -12,
-    marginRight: 20
-  }
+    marginRight: 20,
+  },
 };
 
 class SideDrawer extends Component {
   state = {
-    open: false
+    open: false,
   };
 
   toggleDrawer = open => () => {
     this.setState({
-      open: open
+      open,
     });
   };
+
   render() {
     const { classes } = this.props;
 
@@ -62,8 +63,8 @@ class SideDrawer extends Component {
             {sideList}
             <Divider />
             <Typography variant="caption" align="center">
-            *Demo routes. <br/>Redirect to the start-page.
-          </Typography>
+              *Demo routes. <br />Redirect to the start-page.
+            </Typography>
           </div>
         </Drawer>
       </div>
@@ -72,6 +73,6 @@ class SideDrawer extends Component {
 }
 
 SideDrawer.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 export default withStyles(styles)(SideDrawer);

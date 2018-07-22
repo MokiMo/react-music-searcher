@@ -1,22 +1,22 @@
-import React from "react";
-import DynamicImport from "./router/DynamicImport.js";
-import MusicNote from "@material-ui/icons/MusicNote";
-import InboxIcon from "@material-ui/icons/MoveToInbox";
-import DraftsIcon from "@material-ui/icons/Drafts";
-import StarIcon from "@material-ui/icons/Star";
-import MailIcon from "@material-ui/icons/Mail";
-import DeleteIcon from "@material-ui/icons/Delete";
-import ReportIcon from "@material-ui/icons/Report";
+import React from 'react';
+import MusicNote from '@material-ui/icons/MusicNote';
+import InboxIcon from '@material-ui/icons/MoveToInbox';
+import DraftsIcon from '@material-ui/icons/Drafts';
+import StarIcon from '@material-ui/icons/Star';
+import MailIcon from '@material-ui/icons/Mail';
+import DeleteIcon from '@material-ui/icons/Delete';
+import ReportIcon from '@material-ui/icons/Report';
+import DynamicImport from './router/DynamicImport';
 
 const dev = true;
-export const authenticated = dev ? true : false;
+export const authenticated = !!dev;
 
 // Creating new route
 // 1) new Async-component
 // 2) add route to the route-array, path:component
 // 3) add to sidebar
 export const NotFoundPage = props => (
-  <DynamicImport load={() => import("./containers/NotFound/NotFoundPage")}>
+  <DynamicImport load={() => import('./containers/NotFound/NotFoundPage')}>
     {Component =>
       Component === null ? <p>Loading</p> : <Component {...props} />
     }
@@ -24,7 +24,7 @@ export const NotFoundPage = props => (
 );
 
 const Dashboard = props => (
-  <DynamicImport load={() => import("./containers/Dashboard/Dashboard")}>
+  <DynamicImport load={() => import('./containers/Dashboard/Dashboard')}>
     {Component =>
       Component === null ? <p>Loading</p> : <Component {...props} />
     }
@@ -32,7 +32,7 @@ const Dashboard = props => (
 );
 
 const Loading = props => (
-  <DynamicImport load={() => import("./containers/Loading/Loading")}>
+  <DynamicImport load={() => import('./containers/Loading/Loading')}>
     {Component =>
       Component === null ? <p>Loading</p> : <Component {...props} />
     }
@@ -41,7 +41,7 @@ const Loading = props => (
 
 const LayoutLastFmSearch = props => (
   <DynamicImport
-    load={() => import("./containers/MusicSearch/LayoutLastFmSearch")}
+    load={() => import('./containers/MusicSearch/LayoutLastFmSearch')}
   >
     {Component =>
       Component === null ? <p>Loading</p> : <Component {...props} />
@@ -50,7 +50,7 @@ const LayoutLastFmSearch = props => (
 );
 const FavoriteMusic = props => (
   <DynamicImport
-    load={() => import("./containers/FavoriteMusic/FavoriteMusic")}
+    load={() => import('./containers/FavoriteMusic/FavoriteMusic')}
   >
     {Component =>
       Component === null ? <p>Loading</p> : <Component {...props} />
@@ -59,22 +59,22 @@ const FavoriteMusic = props => (
 );
 
 export const routes = [
-  { path: "/searchmusic", component: LayoutLastFmSearch },
-  { path: "/favoritemusic", component: FavoriteMusic },
-  { path: "/loading", component: Loading },
-  { path: "/dashboard", component: Dashboard },
-  { path: "*", component: NotFoundPage }
+  { path: '/searchmusic', component: LayoutLastFmSearch },
+  { path: '/favoritemusic', component: FavoriteMusic },
+  { path: '/loading', component: Loading },
+  { path: '/dashboard', component: Dashboard },
+  { path: '*', component: NotFoundPage },
 ];
 
 export const SidebarTop = [
-  { text: "Dashboard", icon: <InboxIcon />, route: "dashboard" },
-  { text: "Search Music", icon: <MusicNote />, route: "searchmusic" },
-  { text: "Favorite Music", icon: <StarIcon />, route: "favoritemusic" },
-  { text: "E-Mails*", icon: <DraftsIcon />, route: "emails" }
+  { text: 'Dashboard', icon: <InboxIcon />, route: 'dashboard' },
+  { text: 'Search Music', icon: <MusicNote />, route: 'searchmusic' },
+  { text: 'Favorite Music', icon: <StarIcon />, route: 'favoritemusic' },
+  { text: 'E-Mails*', icon: <DraftsIcon />, route: 'emails' },
 ];
 
 export const SidebarBot = [
-  { text: "All E-Mails*", icon: <MailIcon />, route: "all_emails" },
-  { text: "Trash*", icon: <DeleteIcon />, route: "trash" },
-  { text: "Spam*", icon: <ReportIcon />, route: "spam" }
+  { text: 'All E-Mails*', icon: <MailIcon />, route: 'all_emails' },
+  { text: 'Trash*', icon: <DeleteIcon />, route: 'trash' },
+  { text: 'Spam*', icon: <ReportIcon />, route: 'spam' },
 ];

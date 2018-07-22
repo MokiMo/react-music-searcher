@@ -1,8 +1,10 @@
-import actions from "./actions";
+import actions from './actions';
 
 export const initState = {
   tracks: [],
-  favorites: []
+  albums: [],
+  artists: [],
+  favorites: [],
 };
 
 export default function musicSearchReducer(state = initState, action) {
@@ -10,17 +12,19 @@ export default function musicSearchReducer(state = initState, action) {
     case actions.MUSIC_FOUND:
       return {
         ...state,
-        tracks: action.payload.tracks
+        tracks: action.payload.tracks,
+        albums: action.payload.albums,
+        artists: action.payload.artists,
       };
     case actions.FAVORITE_MUSIC_ADDED:
       return {
         ...state,
-        favorites: [...state.favorites, action.name]
+        favorites: [...state.favorites, action.name],
       };
     case actions.FAVORITE_MUSIC_REMOVED:
       return {
         ...state,
-        favorites: state.favorites.filter(music => music !== action.name)
+        favorites: state.favorites.filter(music => music !== action.name),
       };
     default:
       return state;

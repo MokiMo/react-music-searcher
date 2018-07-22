@@ -57,7 +57,7 @@ class DisplayFavorites extends React.Component {
                       src={track.image["3"]["#text"]}
                       alt="Music found on Lastfm"
                     />
-                    <a href={track.url} target="_blank" className="playWrapper">
+                    <a href={track.url} target="_blank" rel="noopener noreferrer" className="playWrapper">
                       {" "}
                     </a>
                   </div>
