@@ -1,0 +1,2416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API API-Request returns data matching Snapshot (ALBUMS) 1`] = `
+Array [
+  Object {
+    "artist": "Jack Johnson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/8b865c05409d4187bff6509d32444fde.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/8b865c05409d4187bff6509d32444fde.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/8b865c05409d4187bff6509d32444fde.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/8b865c05409d4187bff6509d32444fde.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "8803a42d-59ca-4eee-83ba-61fae63856f5",
+    "name": "In Between Dreams",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Johnson/In+Between+Dreams",
+  },
+  Object {
+    "artist": "blink-182",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/f542df60ea5a4b18ac7607717cdaf899.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/f542df60ea5a4b18ac7607717cdaf899.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/f542df60ea5a4b18ac7607717cdaf899.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/f542df60ea5a4b18ac7607717cdaf899.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "",
+    "name": "Take Off Your Pants and Jacket",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/blink-182/Take+Off+Your+Pants+and+Jacket",
+  },
+  Object {
+    "artist": "Michael Jackson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/ebfb84f53972433ba546d737039093c5.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/ebfb84f53972433ba546d737039093c5.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/ebfb84f53972433ba546d737039093c5.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/ebfb84f53972433ba546d737039093c5.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "34725eea-3352-4e0e-9fc0-c40776fdf3bc",
+    "name": "The Essential Michael Jackson",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Michael+Jackson/The+Essential+Michael+Jackson",
+  },
+  Object {
+    "artist": "Michael Jackson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/b1bf13ec616843f98e55e00ee443d68b.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/b1bf13ec616843f98e55e00ee443d68b.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/b1bf13ec616843f98e55e00ee443d68b.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/b1bf13ec616843f98e55e00ee443d68b.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "",
+    "name": "Michael Jackson's This Is It",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Michael+Jackson/Michael+Jackson%27s+This+Is+It",
+  },
+  Object {
+    "artist": "Huncho Jack",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/75ad6634176f2d18788a1dd46b122572.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/75ad6634176f2d18788a1dd46b122572.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/75ad6634176f2d18788a1dd46b122572.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/75ad6634176f2d18788a1dd46b122572.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "",
+    "name": "Huncho Jack, Jack Huncho",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Huncho+Jack/Huncho+Jack,+Jack+Huncho",
+  },
+  Object {
+    "artist": "Jack Ü",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/f3d7d21dcf88191f44ae53c84d4804a4.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/f3d7d21dcf88191f44ae53c84d4804a4.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/f3d7d21dcf88191f44ae53c84d4804a4.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/f3d7d21dcf88191f44ae53c84d4804a4.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "",
+    "name": "Skrillex and Diplo Present Jack Ü",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+%C3%9C/Skrillex+and+Diplo+Present+Jack+%C3%9C",
+  },
+  Object {
+    "artist": "Jack White",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9dbff5e7be08d5d1e364c0e501be866b.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9dbff5e7be08d5d1e364c0e501be866b.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9dbff5e7be08d5d1e364c0e501be866b.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9dbff5e7be08d5d1e364c0e501be866b.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "08d68658-0834-4dea-9914-8146cf4b9907",
+    "name": "Blunderbuss",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+White/Blunderbuss",
+  },
+  Object {
+    "artist": "Jack Johnson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/e266828195ca4853ba71963bf84ee1e1.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/e266828195ca4853ba71963bf84ee1e1.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/e266828195ca4853ba71963bf84ee1e1.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/e266828195ca4853ba71963bf84ee1e1.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "972a10fd-c0b7-47c4-9c72-267a8e6aec38",
+    "name": "On and On",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Johnson/On+and+On",
+  },
+  Object {
+    "artist": "Jack Johnson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/ae444cac53ea4df1abb6a47311fc13be.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/ae444cac53ea4df1abb6a47311fc13be.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/ae444cac53ea4df1abb6a47311fc13be.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/ae444cac53ea4df1abb6a47311fc13be.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "ce15129f-2995-3e35-b12e-613456470b23",
+    "name": "Sleep Through The Static",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Johnson/Sleep+Through+The+Static",
+  },
+  Object {
+    "artist": "Jack Johnson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/a55820c7b475406c90810255bb55a5b2.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/a55820c7b475406c90810255bb55a5b2.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/a55820c7b475406c90810255bb55a5b2.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a55820c7b475406c90810255bb55a5b2.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "34c07ea9-63ff-4d69-bfb2-279d52dda6da",
+    "name": "Brushfire Fairytales",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Johnson/Brushfire+Fairytales",
+  },
+  Object {
+    "artist": "Michael Jackson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/6df20949c1cf44edc451581e314f064e.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/6df20949c1cf44edc451581e314f064e.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/6df20949c1cf44edc451581e314f064e.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/6df20949c1cf44edc451581e314f064e.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "9774b815-8ffa-4fd2-8eb5-c25539322a77",
+    "name": "Thriller",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Michael+Jackson/Thriller",
+  },
+  Object {
+    "artist": "Jack's Mannequin",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/eb3f3bd8b1014cac84c79a284cbfed5a.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/eb3f3bd8b1014cac84c79a284cbfed5a.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/eb3f3bd8b1014cac84c79a284cbfed5a.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/eb3f3bd8b1014cac84c79a284cbfed5a.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "5adfea9a-a206-4462-98ae-8d7b4506c43f",
+    "name": "Everything in Transit",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack%27s+Mannequin/Everything+in+Transit",
+  },
+  Object {
+    "artist": "Michael Jackson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c8b1ab8d0308431ac39c7cae9e93480a.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c8b1ab8d0308431ac39c7cae9e93480a.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c8b1ab8d0308431ac39c7cae9e93480a.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c8b1ab8d0308431ac39c7cae9e93480a.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "",
+    "name": "Michael Jackson: The Ultimate Collection",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Michael+Jackson/Michael+Jackson:+The+Ultimate+Collection",
+  },
+  Object {
+    "artist": "Ryan Adams & The Cardinals",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/f9820e63147346e09a5244532a55ebc3.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/f9820e63147346e09a5244532a55ebc3.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/f9820e63147346e09a5244532a55ebc3.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/f9820e63147346e09a5244532a55ebc3.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "defa1d7d-348e-4398-a155-1a3229201972",
+    "name": "Jacksonville City Nights",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Ryan+Adams+&+The+Cardinals/Jacksonville+City+Nights",
+  },
+  Object {
+    "artist": "Chingy",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/92d175a87e5a4b60cb5c5e931c84ba9d.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/92d175a87e5a4b60cb5c5e931c84ba9d.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/92d175a87e5a4b60cb5c5e931c84ba9d.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/92d175a87e5a4b60cb5c5e931c84ba9d.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "c1467837-33c9-4d68-87a1-099d9f3ba88f",
+    "name": "Jackpot",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Chingy/Jackpot",
+  },
+  Object {
+    "artist": "Phil Collins",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2daf353c8ab12a8ed755a581ed2c1edc.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2daf353c8ab12a8ed755a581ed2c1edc.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2daf353c8ab12a8ed755a581ed2c1edc.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2daf353c8ab12a8ed755a581ed2c1edc.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "9e231b0b-85bd-3191-b1cb-3d05c1c47e94",
+    "name": "No Jacket Required",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Phil+Collins/No+Jacket+Required",
+  },
+  Object {
+    "artist": "Villagers",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/84f99c1848b343eaaf4702fb1b6d79c9.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/84f99c1848b343eaaf4702fb1b6d79c9.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/84f99c1848b343eaaf4702fb1b6d79c9.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/84f99c1848b343eaaf4702fb1b6d79c9.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "6090098f-3736-4c01-adf8-810b8660c5ac",
+    "name": "Becoming a Jackal",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Villagers/Becoming+a+Jackal",
+  },
+  Object {
+    "artist": "Tiësto",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2656f19da8d401c7714997f09a1b7653.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2656f19da8d401c7714997f09a1b7653.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2656f19da8d401c7714997f09a1b7653.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2656f19da8d401c7714997f09a1b7653.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "",
+    "name": "Jackie Chan",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Ti%C3%ABsto/Jackie+Chan",
+  },
+  Object {
+    "artist": "Adam Green",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/b68f8a7e25294e7898758f2809e849c0.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/b68f8a7e25294e7898758f2809e849c0.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/b68f8a7e25294e7898758f2809e849c0.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/b68f8a7e25294e7898758f2809e849c0.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "2520cdaf-6146-3293-b856-5b163e76e1d2",
+    "name": "Jacket Full of Danger",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Adam+Green/Jacket+Full+of+Danger",
+  },
+  Object {
+    "artist": "Michael Jackson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2691176a5ac132018e4fc09a213eaecd.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2691176a5ac132018e4fc09a213eaecd.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2691176a5ac132018e4fc09a213eaecd.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2691176a5ac132018e4fc09a213eaecd.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "bcf7537d-6b5d-4987-b022-074215f3f9fa",
+    "name": "Bad",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Michael+Jackson/Bad",
+  },
+  Object {
+    "artist": "Michael Jackson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/d667ae4d5428c14d47934dcb8995e84c.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/d667ae4d5428c14d47934dcb8995e84c.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/d667ae4d5428c14d47934dcb8995e84c.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d667ae4d5428c14d47934dcb8995e84c.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "ae5efacd-f75f-432a-9f22-b35d3169d21f",
+    "name": "Dangerous",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Michael+Jackson/Dangerous",
+  },
+  Object {
+    "artist": "Ciara",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fda63984393dfeafcd6d0e62140c20e4.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fda63984393dfeafcd6d0e62140c20e4.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fda63984393dfeafcd6d0e62140c20e4.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fda63984393dfeafcd6d0e62140c20e4.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "",
+    "name": "Jackie (Deluxe)",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Ciara/Jackie+(Deluxe)",
+  },
+  Object {
+    "artist": "Jack White",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/d631be95305a4e90ce8fb3f6ee33baac.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/d631be95305a4e90ce8fb3f6ee33baac.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/d631be95305a4e90ce8fb3f6ee33baac.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d631be95305a4e90ce8fb3f6ee33baac.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "b5139eff-0ce6-428e-a96f-6653a68af7a2",
+    "name": "Lazaretto",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+White/Lazaretto",
+  },
+  Object {
+    "artist": "The Jackson 5",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/57a121b3f2c1d1c90ba432882563bc8b.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/57a121b3f2c1d1c90ba432882563bc8b.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/57a121b3f2c1d1c90ba432882563bc8b.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/57a121b3f2c1d1c90ba432882563bc8b.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "",
+    "name": "Anthology: Jackson 5",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/The+Jackson+5/Anthology:+Jackson+5",
+  },
+  Object {
+    "artist": "Jackson C. Frank",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7b046db9061e45c7bb905402ff6a546d.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7b046db9061e45c7bb905402ff6a546d.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7b046db9061e45c7bb905402ff6a546d.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7b046db9061e45c7bb905402ff6a546d.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "83d2ab3f-e4c4-4593-8834-40f269baedfe",
+    "name": "Jackson C. Frank",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jackson+C.+Frank/Jackson+C.+Frank",
+  },
+  Object {
+    "artist": "Arkells",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/01f294b616014498c49e3998ea24fb7c.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/01f294b616014498c49e3998ea24fb7c.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/01f294b616014498c49e3998ea24fb7c.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/01f294b616014498c49e3998ea24fb7c.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "deb3e7c3-00ec-494c-bc90-af3dda282446",
+    "name": "Jackson Square",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Arkells/Jackson+Square",
+  },
+  Object {
+    "artist": "Michael Jackson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fd85356f20ed44109e66ade794a284fe.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fd85356f20ed44109e66ade794a284fe.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fd85356f20ed44109e66ade794a284fe.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fd85356f20ed44109e66ade794a284fe.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "724049b1-c305-4968-9faf-3aae776183b1",
+    "name": "Number Ones",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Michael+Jackson/Number+Ones",
+  },
+  Object {
+    "artist": "Jack Johnson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/f5c3480045db444bb419381b2340d281.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/f5c3480045db444bb419381b2340d281.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/f5c3480045db444bb419381b2340d281.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/f5c3480045db444bb419381b2340d281.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "b9c43a32-116c-4b13-aee5-1b327f544334",
+    "name": "To The Sea",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Johnson/To+The+Sea",
+  },
+  Object {
+    "artist": "Jack's Mannequin",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/11e90bfa329c43bb8228f10dbceafeff.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/11e90bfa329c43bb8228f10dbceafeff.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/11e90bfa329c43bb8228f10dbceafeff.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/11e90bfa329c43bb8228f10dbceafeff.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "155371da-3a46-4a4e-80d5-1e06d175ecae",
+    "name": "The Glass Passenger",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack%27s+Mannequin/The+Glass+Passenger",
+  },
+  Object {
+    "artist": "Hooverphonic",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/bf8ae42219a94dfcba2c38cb8a8bca94.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/bf8ae42219a94dfcba2c38cb8a8bca94.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/bf8ae42219a94dfcba2c38cb8a8bca94.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/bf8ae42219a94dfcba2c38cb8a8bca94.png",
+        "size": "extralarge",
+      },
+    ],
+    "mbid": "",
+    "name": "Presents Jackie Cane",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Hooverphonic/Presents+Jackie+Cane",
+  },
+]
+`;
+
+exports[`API API-Request returns data matching Snapshot (ARTIST) 1`] = `
+Array [
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "2513305",
+    "mbid": "ff6e677f-91dd-4986-a174-8db0474b1799",
+    "name": "Jack Johnson",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Johnson",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "3460980",
+    "mbid": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+    "name": "Michael Jackson",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Michael+Jackson",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/1bf48a9d3152d006bc086c9c5a5bccaf.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/1bf48a9d3152d006bc086c9c5a5bccaf.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/1bf48a9d3152d006bc086c9c5a5bccaf.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/1bf48a9d3152d006bc086c9c5a5bccaf.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/1bf48a9d3152d006bc086c9c5a5bccaf.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "837073",
+    "mbid": "3ae2fb37-8a23-429d-9920-bac811c4fc22",
+    "name": "Jack White",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+White",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/300d94465f3348d2a32bddec29c5d916.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/300d94465f3348d2a32bddec29c5d916.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/300d94465f3348d2a32bddec29c5d916.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/300d94465f3348d2a32bddec29c5d916.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/300d94465f3348d2a32bddec29c5d916.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "693997",
+    "mbid": "2b6514cd-d424-45fe-ab85-bd8719f4492d",
+    "name": "Jack's Mannequin",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack%27s+Mannequin",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9e6afee51237d70a0b24473ca18f8eff.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9e6afee51237d70a0b24473ca18f8eff.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9e6afee51237d70a0b24473ca18f8eff.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9e6afee51237d70a0b24473ca18f8eff.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9e6afee51237d70a0b24473ca18f8eff.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "1252413",
+    "mbid": "6be2828f-6c0d-4059-99d4-fa18acf1a296",
+    "name": "Janet Jackson",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Janet+Jackson",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/95396616b2fb4ee1ceaeca694eb84f1d.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/95396616b2fb4ee1ceaeca694eb84f1d.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/95396616b2fb4ee1ceaeca694eb84f1d.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/95396616b2fb4ee1ceaeca694eb84f1d.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/95396616b2fb4ee1ceaeca694eb84f1d.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "975316",
+    "mbid": "ea5883b7-68ce-48b3-b115-61746ea53b8c",
+    "name": "My Morning Jacket",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/My+Morning+Jacket",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/0bba5982a4174396834b57aaf331c56c.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/0bba5982a4174396834b57aaf331c56c.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/0bba5982a4174396834b57aaf331c56c.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0bba5982a4174396834b57aaf331c56c.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0bba5982a4174396834b57aaf331c56c.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "185816",
+    "mbid": "5e1dbdb2-87ac-41ff-9960-4a42a872327a",
+    "name": "Andrew Jackson Jihad",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Andrew+Jackson+Jihad",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "1460295",
+    "mbid": "e5257dc5-1edd-4fca-b7e6-1158e00522c8",
+    "name": "The Jackson 5",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/The+Jackson+5",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3b6a9dda93c94e959aca375a31d8aae3.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3b6a9dda93c94e959aca375a31d8aae3.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3b6a9dda93c94e959aca375a31d8aae3.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3b6a9dda93c94e959aca375a31d8aae3.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3b6a9dda93c94e959aca375a31d8aae3.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "709697",
+    "mbid": "88527d26-7496-47c5-8358-ebdb1868a90f",
+    "name": "Jackson Browne",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jackson+Browne",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3d4f4ce8c5234e69ce03b06bd5fb889d.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3d4f4ce8c5234e69ce03b06bd5fb889d.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3d4f4ce8c5234e69ce03b06bd5fb889d.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3d4f4ce8c5234e69ce03b06bd5fb889d.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3d4f4ce8c5234e69ce03b06bd5fb889d.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "73238",
+    "mbid": "654188a5-bbfc-41d8-aa27-86a946dfd757",
+    "name": "Jacek Kaczmarski",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jacek+Kaczmarski",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2c89c064f6933070bd42a390433e048c.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2c89c064f6933070bd42a390433e048c.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2c89c064f6933070bd42a390433e048c.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2c89c064f6933070bd42a390433e048c.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2c89c064f6933070bd42a390433e048c.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "639683",
+    "mbid": "7291957b-c463-4275-a41c-a104c9e2337f",
+    "name": "Alan Jackson",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Alan+Jackson",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c41de0f9e34847fb118c44ce3e8a7a3f.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c41de0f9e34847fb118c44ce3e8a7a3f.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c41de0f9e34847fb118c44ce3e8a7a3f.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c41de0f9e34847fb118c44ce3e8a7a3f.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c41de0f9e34847fb118c44ce3e8a7a3f.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "349153",
+    "mbid": "8a40cfa4-e190-4133-a9af-e668c7d5f6f3",
+    "name": "Jack Ü",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+%C3%9C",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/ec62472fab8d43b3b95e9322e4fa9423.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/ec62472fab8d43b3b95e9322e4fa9423.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/ec62472fab8d43b3b95e9322e4fa9423.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/ec62472fab8d43b3b95e9322e4fa9423.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/ec62472fab8d43b3b95e9322e4fa9423.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "155594",
+    "mbid": "a173a2b0-a6c0-403b-911a-1d01c82918a6",
+    "name": "Jack Wall",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Wall",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/5a1e93c76acd4f2bbb2d7a6d00d8280b.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/5a1e93c76acd4f2bbb2d7a6d00d8280b.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/5a1e93c76acd4f2bbb2d7a6d00d8280b.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/5a1e93c76acd4f2bbb2d7a6d00d8280b.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/5a1e93c76acd4f2bbb2d7a6d00d8280b.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "284876",
+    "mbid": "9b64cf5d-1f4a-45b5-a84a-5109a88f178f",
+    "name": "Jack Peñate",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Pe%C3%B1ate",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/a98a26676fcd42b9b87d699c0a303d20.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/a98a26676fcd42b9b87d699c0a303d20.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/a98a26676fcd42b9b87d699c0a303d20.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a98a26676fcd42b9b87d699c0a303d20.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a98a26676fcd42b9b87d699c0a303d20.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "215244",
+    "mbid": "7e870dd5-2667-454b-9fcf-a132dd8071f1",
+    "name": "Jack Off Jill",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Off+Jill",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/0b86d94444c24c4d912b28ba05478132.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/0b86d94444c24c4d912b28ba05478132.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/0b86d94444c24c4d912b28ba05478132.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0b86d94444c24c4d912b28ba05478132.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0b86d94444c24c4d912b28ba05478132.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "399700",
+    "mbid": "e6fe63ef-5fb8-4f83-a59d-fc13d85d5454",
+    "name": "Joe Jackson",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Joe+Jackson",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/71a014c6147f8e1f2227bd29be40b8eb.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/71a014c6147f8e1f2227bd29be40b8eb.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/71a014c6147f8e1f2227bd29be40b8eb.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/71a014c6147f8e1f2227bd29be40b8eb.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/71a014c6147f8e1f2227bd29be40b8eb.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "226122",
+    "mbid": "fcba6ab6-4a51-4688-b90b-57d6eab55b46",
+    "name": "Jack Garratt",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Garratt",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/6d1b7069602544cda6dec5a655d42f12.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/6d1b7069602544cda6dec5a655d42f12.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/6d1b7069602544cda6dec5a655d42f12.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/6d1b7069602544cda6dec5a655d42f12.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/6d1b7069602544cda6dec5a655d42f12.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "367316",
+    "mbid": "ac70f34d-95fd-40ed-b436-f5402fb5ffb8",
+    "name": "Just Jack",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Just+Jack",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c27b4040ddd04dedaadc6ea6afd962ba.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c27b4040ddd04dedaadc6ea6afd962ba.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c27b4040ddd04dedaadc6ea6afd962ba.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c27b4040ddd04dedaadc6ea6afd962ba.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c27b4040ddd04dedaadc6ea6afd962ba.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "439821",
+    "mbid": "f0bf4fa0-028e-452f-82d3-7d4375e105dd",
+    "name": "Jackie Wilson",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jackie+Wilson",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/d1788800cf274e0a8f51797272a5b018.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/d1788800cf274e0a8f51797272a5b018.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/d1788800cf274e0a8f51797272a5b018.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d1788800cf274e0a8f51797272a5b018.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d1788800cf274e0a8f51797272a5b018.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "518937",
+    "mbid": "e5257dc5-1edd-4fca-b7e6-1158e00522c8",
+    "name": "The Jacksons",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/The+Jacksons",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/dd973f17b7474729c7805318b0678de5.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/dd973f17b7474729c7805318b0678de5.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/dd973f17b7474729c7805318b0678de5.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/dd973f17b7474729c7805318b0678de5.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/dd973f17b7474729c7805318b0678de5.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "127220",
+    "mbid": "e596591b-3031-4d50-ae40-020d0e7ebcef",
+    "name": "Henry Jackman",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Henry+Jackman",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/d879281510fe491083c53fd4cde5838c.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/d879281510fe491083c53fd4cde5838c.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/d879281510fe491083c53fd4cde5838c.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d879281510fe491083c53fd4cde5838c.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d879281510fe491083c53fd4cde5838c.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "145674",
+    "mbid": "ffa665e1-79c0-44fc-b963-6740619b91f5",
+    "name": "Jackson C. Frank",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jackson+C.+Frank",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fc79e1786dfd449399e50ace860263b3.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fc79e1786dfd449399e50ace860263b3.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fc79e1786dfd449399e50ace860263b3.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fc79e1786dfd449399e50ace860263b3.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fc79e1786dfd449399e50ace860263b3.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "287638",
+    "mbid": "550fbe01-42e9-4006-bcd0-6a1854dceb8f",
+    "name": "Wanda Jackson",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Wanda+Jackson",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/eba5a12bca5b99a28c9ba33f74f1757e.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/eba5a12bca5b99a28c9ba33f74f1757e.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/eba5a12bca5b99a28c9ba33f74f1757e.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/eba5a12bca5b99a28c9ba33f74f1757e.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/eba5a12bca5b99a28c9ba33f74f1757e.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "128798",
+    "mbid": "5d0dc00d-4b5c-435c-bd96-72a05c3d49e1",
+    "name": "Jack Savoretti",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Savoretti",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/e3425292643a4556b275ef998060b198.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/e3425292643a4556b275ef998060b198.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/e3425292643a4556b275ef998060b198.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/e3425292643a4556b275ef998060b198.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/e3425292643a4556b275ef998060b198.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "29870",
+    "mbid": "",
+    "name": "Jack Wall and Sam Hulick",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jack+Wall+and+Sam+Hulick",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/d2bfa929d6dae8622225ef74ae258905.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/d2bfa929d6dae8622225ef74ae258905.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/d2bfa929d6dae8622225ef74ae258905.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d2bfa929d6dae8622225ef74ae258905.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d2bfa929d6dae8622225ef74ae258905.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "50386",
+    "mbid": "",
+    "name": "Huncho Jack",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Huncho+Jack",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c5462ef61032188766923939131d1dcd.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c5462ef61032188766923939131d1dcd.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c5462ef61032188766923939131d1dcd.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c5462ef61032188766923939131d1dcd.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c5462ef61032188766923939131d1dcd.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "92469",
+    "mbid": "7f378f19-4686-41aa-b83e-3df359ae1578",
+    "name": "Hugh Jackman",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Hugh+Jackman",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/4fe5a210baec4b15994992d2192c6351.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/4fe5a210baec4b15994992d2192c6351.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/4fe5a210baec4b15994992d2192c6351.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/4fe5a210baec4b15994992d2192c6351.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/4fe5a210baec4b15994992d2192c6351.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "284155",
+    "mbid": "e96ab876-83bc-4f5d-98da-91dc8589acbc",
+    "name": "Junior Jack",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Junior+Jack",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/14c3fa025fdf5a8089f3bc61ec4cb080.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/14c3fa025fdf5a8089f3bc61ec4cb080.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/14c3fa025fdf5a8089f3bc61ec4cb080.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/14c3fa025fdf5a8089f3bc61ec4cb080.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/14c3fa025fdf5a8089f3bc61ec4cb080.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "55268",
+    "mbid": "1b31b39e-06ac-4978-a444-902328d7d7f8",
+    "name": "Christopher Jackson",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Christopher+Jackson",
+  },
+  Object {
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/516bd1b306e54ffc90af33d075f4a406.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/516bd1b306e54ffc90af33d075f4a406.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/516bd1b306e54ffc90af33d075f4a406.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/516bd1b306e54ffc90af33d075f4a406.png",
+        "size": "extralarge",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/516bd1b306e54ffc90af33d075f4a406.png",
+        "size": "mega",
+      },
+    ],
+    "listeners": "102767",
+    "mbid": "a4b3fb24-a04e-4249-9fa5-5a198ca9d73c",
+    "name": "Jackie Mittoo",
+    "streamable": "0",
+    "url": "https://www.last.fm/music/Jackie+Mittoo",
+  },
+]
+`;
+
+exports[`API API-Request returns data matching Snapshot (TRACKS) 1`] = `
+Array [
+  Object {
+    "artist": "OutKast",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/362568f269f14182a7f04458fb09f95e.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/362568f269f14182a7f04458fb09f95e.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/362568f269f14182a7f04458fb09f95e.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/362568f269f14182a7f04458fb09f95e.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "833890",
+    "mbid": "65493c37-6583-4f7d-bb9c-56d07487da1a",
+    "name": "Ms. Jackson",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/OutKast/_/Ms.+Jackson",
+  },
+  Object {
+    "artist": "The Kooks",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/66ef5de4364347b89f16e80571de7ef7.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/66ef5de4364347b89f16e80571de7ef7.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/66ef5de4364347b89f16e80571de7ef7.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/66ef5de4364347b89f16e80571de7ef7.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "403164",
+    "mbid": "a2592dd8-2288-491d-acf9-a39c77c63420",
+    "name": "Jackie Big Tits",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/The+Kooks/_/Jackie+Big+Tits",
+  },
+  Object {
+    "artist": "Sufjan Stevens",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/0d29fa6208ee4863882f809d72a01f96.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/0d29fa6208ee4863882f809d72a01f96.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/0d29fa6208ee4863882f809d72a01f96.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0d29fa6208ee4863882f809d72a01f96.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "367536",
+    "mbid": "638971ff-ab37-4d45-afeb-6fa99d1031c5",
+    "name": "Jacksonville",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Sufjan+Stevens/_/Jacksonville",
+  },
+  Object {
+    "artist": "The Rolling Stones",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/52ea36e7ab3141e395c8be3de69b9028.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/52ea36e7ab3141e395c8be3de69b9028.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/52ea36e7ab3141e395c8be3de69b9028.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/52ea36e7ab3141e395c8be3de69b9028.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "462658",
+    "mbid": "ae5e2e11-1be6-4767-beb2-e461842f793a",
+    "name": "Jumpin' Jack Flash",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/The+Rolling+Stones/_/Jumpin%27+Jack+Flash",
+  },
+  Object {
+    "artist": "System of a Down",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/05d78b59cf1242f09fab2176c8bf07df.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/05d78b59cf1242f09fab2176c8bf07df.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/05d78b59cf1242f09fab2176c8bf07df.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/05d78b59cf1242f09fab2176c8bf07df.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "346101",
+    "mbid": "51de9aee-39d2-4c36-a66e-85dbcce0f865",
+    "name": "Mr. Jack",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/System+of+a+Down/_/Mr.+Jack",
+  },
+  Object {
+    "artist": "The Lonely Island",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/93b0c1c6aa4649fbb8bd53c8ab5f2a24.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/93b0c1c6aa4649fbb8bd53c8ab5f2a24.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/93b0c1c6aa4649fbb8bd53c8ab5f2a24.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/93b0c1c6aa4649fbb8bd53c8ab5f2a24.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "170900",
+    "mbid": "",
+    "name": "Jack Sparrow",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/The+Lonely+Island/_/Jack+Sparrow",
+  },
+  Object {
+    "artist": "Hozier",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/1045e0a630524119c14a000f67d9c627.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/1045e0a630524119c14a000f67d9c627.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/1045e0a630524119c14a000f67d9c627.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/1045e0a630524119c14a000f67d9c627.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "156630",
+    "mbid": "10ca00e2-4132-411b-87cb-401165cecac6",
+    "name": "Jackie and Wilson",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Hozier/_/Jackie+and+Wilson",
+  },
+  Object {
+    "artist": "Ray Charles",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/731e565b11cd4d0bb335ef092c6d6b10.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/731e565b11cd4d0bb335ef092c6d6b10.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/731e565b11cd4d0bb335ef092c6d6b10.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/731e565b11cd4d0bb335ef092c6d6b10.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "627898",
+    "mbid": "bab2430e-4fb2-4475-88c7-8e0a0d4b393e",
+    "name": "Hit the Road Jack",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Ray+Charles/_/Hit+the+Road+Jack",
+  },
+  Object {
+    "artist": "John Mellencamp",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c0fc6f2b0c1f404fabcb91525c9be86d.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c0fc6f2b0c1f404fabcb91525c9be86d.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c0fc6f2b0c1f404fabcb91525c9be86d.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c0fc6f2b0c1f404fabcb91525c9be86d.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "253145",
+    "mbid": "5a395d4f-4f7d-457e-b9d9-755975963c5a",
+    "name": "Jack & Diane",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/John+Mellencamp/_/Jack+&+Diane",
+  },
+  Object {
+    "artist": "Tiësto",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/2a2d19db5b4a4e438598496a61458704.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/2a2d19db5b4a4e438598496a61458704.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/2a2d19db5b4a4e438598496a61458704.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/2a2d19db5b4a4e438598496a61458704.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "58528",
+    "mbid": "",
+    "name": "Jackie Chan",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Ti%C3%ABsto/_/Jackie+Chan",
+  },
+  Object {
+    "artist": "AC/DC",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/d3f4e279a056464eb794710d8b4b69b7.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/d3f4e279a056464eb794710d8b4b69b7.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/d3f4e279a056464eb794710d8b4b69b7.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d3f4e279a056464eb794710d8b4b69b7.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "256954",
+    "mbid": "5aacbe6c-6447-44e3-ab42-b06788f4a04c",
+    "name": "The Jack",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/AC%2FDC/_/The+Jack",
+  },
+  Object {
+    "artist": "Jack Johnson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "911496",
+    "mbid": "548bfe47-8d1c-4a4d-8a0f-2f9a4ee6af5b",
+    "name": "Better Together",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Jack+Johnson/_/Better+Together",
+  },
+  Object {
+    "artist": "Michael Jackson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "1158395",
+    "mbid": "f980fc14-e29b-481d-ad3a-5ed9b4ab6340",
+    "name": "Billie Jean",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Michael+Jackson/_/Billie+Jean",
+  },
+  Object {
+    "artist": "Johnny Cash",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/08dfab76ecc847f0862a950f963f5596.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/08dfab76ecc847f0862a950f963f5596.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/08dfab76ecc847f0862a950f963f5596.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/08dfab76ecc847f0862a950f963f5596.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "229306",
+    "mbid": "98ecfda8-a1fa-4cf9-99ab-0dfd731384bc",
+    "name": "Jackson",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Johnny+Cash/_/Jackson",
+  },
+  Object {
+    "artist": "Panic! at the Disco",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3b13095377d061e8d43a1aaac701ebc3.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3b13095377d061e8d43a1aaac701ebc3.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3b13095377d061e8d43a1aaac701ebc3.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3b13095377d061e8d43a1aaac701ebc3.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "72743",
+    "mbid": "",
+    "name": "Miss Jackson (feat. LOLO)",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Panic%21+at+the+Disco/_/Miss+Jackson+(feat.+LOLO)",
+  },
+  Object {
+    "artist": "Beck",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/e2e27c1516074270c2a8457912b23bd6.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/e2e27c1516074270c2a8457912b23bd6.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/e2e27c1516074270c2a8457912b23bd6.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/e2e27c1516074270c2a8457912b23bd6.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "237324",
+    "mbid": "82cea5e7-1314-4be4-9fa2-5b52e5b70aba",
+    "name": "Jack-Ass",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Beck/_/Jack-Ass",
+  },
+  Object {
+    "artist": "Sonic Syndicate",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9184988638fd44b2a06e53a0881ee290.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9184988638fd44b2a06e53a0881ee290.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9184988638fd44b2a06e53a0881ee290.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9184988638fd44b2a06e53a0881ee290.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "72977",
+    "mbid": "d4a986e6-3448-4bb2-b4f2-d139b300f7d6",
+    "name": "Jack of Diamonds",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Sonic+Syndicate/_/Jack+of+Diamonds",
+  },
+  Object {
+    "artist": "Jack Johnson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "763420",
+    "mbid": "38f529e9-92d5-407a-82e3-0c87b0ae906c",
+    "name": "Banana Pancakes",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Jack+Johnson/_/Banana+Pancakes",
+  },
+  Object {
+    "artist": "The Who",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/a379700174324eab802f060dd408977c.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/a379700174324eab802f060dd408977c.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/a379700174324eab802f060dd408977c.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a379700174324eab802f060dd408977c.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "320461",
+    "mbid": "7b49bb84-f59c-4173-af6a-8eb62849df3d",
+    "name": "Happy Jack",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/The+Who/_/Happy+Jack",
+  },
+  Object {
+    "artist": "AC/DC",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/d3f4e279a056464eb794710d8b4b69b7.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/d3f4e279a056464eb794710d8b4b69b7.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/d3f4e279a056464eb794710d8b4b69b7.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d3f4e279a056464eb794710d8b4b69b7.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "163800",
+    "mbid": "e6618929-bb66-4d7c-be4d-ace40c1a8273",
+    "name": "Big Jack",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/AC%2FDC/_/Big+Jack",
+  },
+  Object {
+    "artist": "Jack Johnson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "725343",
+    "mbid": "98cc192f-0849-4849-bb2c-db7430b86b1c",
+    "name": "Sitting, Waiting, Wishing",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Jack+Johnson/_/Sitting,+Waiting,+Wishing",
+  },
+  Object {
+    "artist": "Michael Jackson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "1015310",
+    "mbid": "e25d1292-ca82-4225-ae7d-04193904f3d0",
+    "name": "Thriller",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Michael+Jackson/_/Thriller",
+  },
+  Object {
+    "artist": "Michael Jackson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a9b0f69d51f41a888ef29df9cfe3594.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "944214",
+    "mbid": "6d0c3f07-afbc-422d-94f3-fb3644cf65e0",
+    "name": "Beat It",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Michael+Jackson/_/Beat+It",
+  },
+  Object {
+    "artist": "The Jackson 5",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9a7ca3cf6ba74bacb9b84bea6b989593.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "774978",
+    "mbid": "fc7dc7a7-defd-4e18-aa67-d7960465e43d",
+    "name": "I Want You Back",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/The+Jackson+5/_/I+Want+You+Back",
+  },
+  Object {
+    "artist": "Deerhunter",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/11ea35d5873741e3c1afd50f1175ddcd.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/11ea35d5873741e3c1afd50f1175ddcd.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/11ea35d5873741e3c1afd50f1175ddcd.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/11ea35d5873741e3c1afd50f1175ddcd.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "120578",
+    "mbid": "1f6d86fd-bd23-47a5-babf-b9d386e0b3a8",
+    "name": "Green Jacket",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Deerhunter/_/Green+Jacket",
+  },
+  Object {
+    "artist": "Hooverphonic",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/811d0d34e38a49ef8947e018e327a581.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/811d0d34e38a49ef8947e018e327a581.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/811d0d34e38a49ef8947e018e327a581.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/811d0d34e38a49ef8947e018e327a581.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "152442",
+    "mbid": "0d43847c-9197-4fdc-876f-6f9dcd0dbc4d",
+    "name": "Jackie Cane",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Hooverphonic/_/Jackie+Cane",
+  },
+  Object {
+    "artist": "The Horrors",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/b201236b9b8e413493827297eeac83b2.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/b201236b9b8e413493827297eeac83b2.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/b201236b9b8e413493827297eeac83b2.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/b201236b9b8e413493827297eeac83b2.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "121519",
+    "mbid": "5e154c8b-489f-4175-a965-5114d1b4e48b",
+    "name": "Jack The Ripper",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/The+Horrors/_/Jack+The+Ripper",
+  },
+  Object {
+    "artist": "Justice",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3f6248c361c64e47ce893406a1a853dd.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3f6248c361c64e47ce893406a1a853dd.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3f6248c361c64e47ce893406a1a853dd.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3f6248c361c64e47ce893406a1a853dd.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "140722",
+    "mbid": "",
+    "name": "New Jack",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Justice/_/New+Jack",
+  },
+  Object {
+    "artist": "Metallica",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/22fffa33531b4684a4eb269d357758ae.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/22fffa33531b4684a4eb269d357758ae.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/22fffa33531b4684a4eb269d357758ae.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/22fffa33531b4684a4eb269d357758ae.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "177370",
+    "mbid": "d46fd8e8-11ca-4796-bdd6-5183c831cde3",
+    "name": "The House Jack Built",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Metallica/_/The+House+Jack+Built",
+  },
+  Object {
+    "artist": "Jack Johnson",
+    "image": Array [
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/34s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "small",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/64s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "medium",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/174s/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "large",
+      },
+      Object {
+        "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/02865228bac944ba9ba4e5c28f1cf6ce.png",
+        "size": "extralarge",
+      },
+    ],
+    "listeners": "585038",
+    "mbid": "d3a16cd3-19a9-44f1-ac6c-7472459527c9",
+    "name": "Good People",
+    "streamable": "FIXME",
+    "url": "https://www.last.fm/music/Jack+Johnson/_/Good+People",
+  },
+]
+`;
