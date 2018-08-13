@@ -22,15 +22,25 @@ const Dashboard = ({ classes }) => (
       gutterBottom
     >
       Dashboard.
-      <br />...<br />...<br />...<br />
+      <br />
+      ...
+      <br />
+      ...
+      <br />
+      ...
+      <br />
       Business Content
-      <br />...<br />...<br />...
+      <br />
+      ...
+      <br />
+      ...
+      <br />
+      ...
     </Typography>
     <Typography variant="display1" align="center" className={classes.Paper}>
-      Demo Features<br />
-      - <NavLink to="/searchmusic">Search Music</NavLink>
-      <br />
-      - <NavLink to="/favoritemusic">Favorite Music</NavLink>
+      Demo Features
+      <br />- <NavLink to="/searchmusic">Search Music</NavLink>
+      <br />- <NavLink to="/favoritemusic">Favorite Music</NavLink>
     </Typography>
   </Paper>
 );

@@ -63,7 +63,8 @@ class SideDrawer extends Component {
             {sideList}
             <Divider />
             <Typography variant="caption" align="center">
-              *Demo routes. <br />Redirect to the start-page.
+              *Demo routes. <br />
+              Redirect to the start-page.
             </Typography>
           </div>
         </Drawer>

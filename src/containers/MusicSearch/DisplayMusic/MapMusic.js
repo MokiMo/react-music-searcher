@@ -77,7 +77,8 @@ const MapMusic = props => (
             variant="display1"
           >
             <div className={props.classes.center}>
-              No favorites have been added.<hr />
+              No favorites have been added.
+              <hr />
               <NavLink to="/searchmusic">Search Music</NavLink>
             </div>
           </Typography>

@@ -19,17 +19,15 @@ const NotFoundPage = ({ classes }) => (
     <Paper className={classes.Paper}>
       <Typography variant="display1" align="center" className={classes.Paper}>
         - <NavLink to="/searchmusic">Search Music</NavLink>
-        <br />
-        - <NavLink to="/favoritemusic">Favorite Music</NavLink>
+        <br />- <NavLink to="/favoritemusic">Favorite Music</NavLink>
       </Typography>
 
       <Typography variant="display1" align="center" className={classes.Paper}>
-        - React<br />
-        - Redux<br />
-        - Redux Sagas <br />
-        - React Router<br />
-        - Code splitting<br />
-        - Material UI <br />
+        - React
+        <br />- Redux
+        <br />- Redux Sagas <br />- React Router
+        <br />- Code splitting
+        <br />- Material UI <br />
         <br />
       </Typography>
 
@@ -37,7 +35,8 @@ const NotFoundPage = ({ classes }) => (
         Disclaimer: This app was made solely to demonstrate basic knowledge.
         Alot of the used technologies, such as redux, redux sagas and axios are
         too much for a project like this. But they lay a nice foundation for
-        scaling this app.<br />
+        scaling this app.
+        <br />
         <br />
         React router in combination with redux handling the lifecycles for
         components, makes this very scalable and could turn into a
