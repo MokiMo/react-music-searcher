@@ -6,8 +6,8 @@ import { Login } from './containers/Login/LoginForm';
 import Dashboard from './containers/Dashboard/Dashboard';
 import Footer from './containers/Footer/Footer';
 import Sidebar from './containers/Sidebar/Sidebar';
-import AppReducer, { initState as AppInitState } from './redux/app/reducer';
-import AppActions from './redux/app/actions';
+import AuthReducer, { initState as AuthInitState } from './redux/auth/reducer';
+import AuthActions from './redux/auth/actions';
 
 Enzyme.configure({ adapter: new Adapter() });
 
@@ -43,36 +43,36 @@ describe('Sidebar', () => {
 
 describe('App Reducer', () => {
   it('Has a default state', () => {
-    expect(AppReducer(undefined, { type: 'undefined' })).toEqual({
-      ...AppInitState,
+    expect(AuthReducer(undefined, { type: 'undefined' })).toEqual({
+      ...AuthInitState,
     });
   });
-  it('Test AUTH -> Starting the Authentication', () => {
-    expect(AppReducer(undefined, { type: AppActions.AUTH })).toEqual({
-      ...AppInitState,
+  it('Test AUTH -> Starting the Authentication - starts Loading', () => {
+    expect(AuthReducer(undefined, { type: AuthActions.AUTH })).toEqual({
+      ...AuthInitState,
       loading: true,
     });
   });
   it('Test AUTH_SUCCESS -> Authentication', () => {
     const payload = { user: 'testUser', pass: 'testPass' };
     expect(
-      AppReducer(undefined, { type: AppActions.AUTH_SUCCESS, payload })
+      AuthReducer(undefined, { type: AuthActions.AUTH_SUCCESS, payload })
     ).toEqual({
-      ...AppInitState,
+      ...AuthInitState,
       ...payload,
       authenticated: true,
     });
   });
   it('Test AUTH_FAIL -> Authentication', () => {
-    expect(AppReducer(undefined, { type: AppActions.AUTH_FAIL })).toEqual({
-      ...AppInitState,
+    expect(AuthReducer(undefined, { type: AuthActions.AUTH_FAIL })).toEqual({
+      ...AuthInitState,
       authenticated: false,
       loading: 'error',
     });
   });
   it('Test LOGOUT -> Removing the data', () => {
-    expect(AppReducer(undefined, { type: AppActions.LOGOUT })).toEqual({
-      ...AppInitState,
+    expect(AuthReducer(undefined, { type: AuthActions.LOGOUT })).toEqual({
+      ...AuthInitState,
       authenticated: false,
     });
   });
@@ -85,17 +85,17 @@ describe('actions', () => {
       password: 'pass',
     };
     const expectedAction = {
-      type: AppActions.AUTH,
+      type: AuthActions.AUTH,
       payload,
     };
-    expect(AppActions.auth(payload)).toEqual(expectedAction);
+    expect(AuthActions.auth(payload)).toEqual(expectedAction);
   });
   it('should create an action to logout', () => {
     const expectedAction = {
-      type: AppActions.LOGOUT,
+      type: AuthActions.LOGOUT,
     };
     expect(
-      AppActions.logout('Passing payload, does absolutely nothing.')
+      AuthActions.logout('Passing payload, does absolutely nothing.')
     ).toEqual(expectedAction);
   });
 });

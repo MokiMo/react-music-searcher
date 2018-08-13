@@ -8,7 +8,7 @@ export const initState = {
   loading: false,
 };
 
-export default function appReducer(state = initState, action) {
+export default function authReducer(state = initState, action) {
   switch (action.type) {
     case actions.AUTH:
       return {

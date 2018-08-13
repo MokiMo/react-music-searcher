@@ -5,7 +5,7 @@ export const initState = {
   error: false,
 };
 
-export default function musicSearchReducer(state = initState, action) {
+export default function appReducer(state = initState, action) {
   switch (action.type) {
     case actions.LOADING:
       return {
