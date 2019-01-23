@@ -1,11 +1,8 @@
 import React from 'react';
 import MusicNote from '@material-ui/icons/MusicNote';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
-import DraftsIcon from '@material-ui/icons/Drafts';
 import StarIcon from '@material-ui/icons/Star';
 import MailIcon from '@material-ui/icons/Mail';
-import DeleteIcon from '@material-ui/icons/Delete';
-import ReportIcon from '@material-ui/icons/Report';
 import DynamicImport from './router/DynamicImport';
 import Loading from './containers/Loading/Loading';
 
@@ -18,12 +15,6 @@ export const authenticated = !!dev;
 // 3) add to sidebar
 export const NotFoundPage = props => (
   <DynamicImport load={() => import('./containers/NotFound/NotFoundPage')}>
-    {Component => (Component === null ? <Loading /> : <Component {...props} />)}
-  </DynamicImport>
-);
-
-const Dashboard = props => (
-  <DynamicImport load={() => import('./containers/Dashboard/Dashboard')}>
     {Component => (Component === null ? <Loading /> : <Component {...props} />)}
   </DynamicImport>
 );
@@ -46,19 +37,15 @@ const FavoriteMusic = props => (
 export const routes = [
   { path: '/searchmusic', component: LayoutSearchMusic },
   { path: '/favoritemusic', component: FavoriteMusic },
-  { path: '/dashboard', component: Dashboard },
   { path: '*', component: NotFoundPage },
 ];
 
 export const SidebarTop = [
-  { text: 'Dashboard', icon: <InboxIcon />, route: 'dashboard' },
   { text: 'Search Music', icon: <MusicNote />, route: 'searchmusic' },
   { text: 'Favorite Music', icon: <StarIcon />, route: 'favoritemusic' },
-  { text: 'E-Mails*', icon: <DraftsIcon />, route: 'emails' },
 ];
 
 export const SidebarBot = [
-  { text: 'All E-Mails*', icon: <MailIcon />, route: 'all_emails' },
-  { text: 'Trash*', icon: <DeleteIcon />, route: 'trash' },
-  { text: 'Spam*', icon: <ReportIcon />, route: 'spam' },
+  { text: 'Profile*', icon: <MailIcon />, route: 'all_emails' },
+  { text: 'About*', icon: <InboxIcon />, route: 'about' },
 ];
