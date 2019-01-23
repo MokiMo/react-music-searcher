@@ -9,7 +9,7 @@ import Search from '@material-ui/icons/Search';
 import PropTypes from 'prop-types';
 import uuidv4 from 'uuid/v4';
 import Loading from '../../components/UI/Loading';
-import API_KEY from './API_KEY';
+import { API_KEY } from '../../config';
 import appActions from '../../redux/app/actions';
 import { musicFound } from '../../redux/musicSearch/actions';
 

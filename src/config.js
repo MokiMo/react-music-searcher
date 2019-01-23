@@ -8,6 +8,7 @@ import Loading from './containers/Loading/Loading';
 
 const dev = true;
 export const authenticated = !!dev;
+export const API_KEY = process.env.API_KEY || 'local_test_key';
 
 // Creating new route
 // 1) new Async-component
@@ -26,6 +27,7 @@ const LayoutSearchMusic = props => (
     {Component => (Component === null ? <Loading /> : <Component {...props} />)}
   </DynamicImport>
 );
+
 const FavoriteMusic = props => (
   <DynamicImport
     load={() => import('./containers/FavoriteMusic/FavoriteMusic')}
