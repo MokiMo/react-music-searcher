@@ -4,7 +4,7 @@ import Adapter from 'enzyme-adapter-react-16';
 
 import axios from 'axios';
 import App from './App';
-import API_KEY from './containers/MusicSearch/API_KEY';
+import { API_KEY } from './config';
 import { Login } from './containers/Login/LoginForm';
 import Dashboard from './containers/Dashboard/Dashboard';
 import Footer from './containers/Footer/Footer';
