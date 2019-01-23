@@ -45,4 +45,5 @@
 ### Description
 This project contains some of the *key libraries* that make React great and scalable.
 A lot of the used technologies, such as redux, redux sagas and axios are *too much* for a project like this. But they lay the foundation for scaling this app.
+_Fancy stuff like automated deployment after a commit can (soon) be seen at "just-about-everything"_
 **This is not meant to be a complete app, just a demonstration of use-cases of various technologies.**
