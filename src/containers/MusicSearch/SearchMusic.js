@@ -44,8 +44,6 @@ class MusicSearch extends Component {
   search = () => {
     this.props.startLoading();
     const { input, searchLimit } = this.state;
-    // Get the api key from last.fm
-    // create API_KEY.js in the same directory -> export const API_KEY = "key";
     axios
       .all([
         axios.get(
