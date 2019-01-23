@@ -9,8 +9,6 @@ const LayoutSearchMusic = () => (
     <ErrorMessage />
     <SearchMusic />
     <DisplayMusic />
-    <br />
-    <div />
   </Fragment>
 );
 
