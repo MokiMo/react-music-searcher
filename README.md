@@ -1,5 +1,7 @@
 # [ Live Demo](https://mokimo.github.io/react-music-searcher/#/searchmusic "# Live Demo")
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mokimo/react-music-searcher.svg)](https://greenkeeper.io/)
+
 # [Demo Video](https://drive.google.com/file/d/1-TsUCK9qQTJq-LpcsdzV4D-03E0o1o6x/view "# Demo Video")
 
 ### Technologies
