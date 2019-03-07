@@ -15,7 +15,7 @@ import AuthActions from './redux/auth/actions';
 Enzyme.configure({ adapter: new Adapter() });
 
 // If the LastFM-search-API has breaking changes, use the snapshot to troubleshoot
-describe('API', () => {
+describe.skip('API', () => {
   it('API-Request returns data matching Snapshot (TRACKS)', async () => {
     const response = await axios
       .get(
