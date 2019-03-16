@@ -32,7 +32,7 @@
     "gh-pages": "^2.0.1",
     "prettier": "^1.14.2",
     "redux-devtools": "^3.4.1",
-    "source-map-explorer": "^1.5.0"
+    "source-map-explorer": "^1.8.0"
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
