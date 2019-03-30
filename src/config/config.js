@@ -3,10 +3,12 @@ import MusicNote from '@material-ui/icons/MusicNote';
 import StarIcon from '@material-ui/icons/Star';
 import DynamicImport from '../router/DynamicImport';
 import Loading from '../containers/Loading/Loading';
+import LAST_FM_KEY from './secrets/API_KEY';
 
 const dev = true;
 export const authenticated = !!dev;
-export const API_KEY = process.env.LAST_FM_API_KEY || 'local_test_key';
+export const API_KEY =
+  process.env.LAST_FM_API_KEY || LAST_FM_KEY || 'local_test_key';
 
 // Creating new route
 // 1) new Async-component
