@@ -7,6 +7,9 @@
 # production
 /build
 
+# api-keys
+/src/config/secrets
+
 # misc
 .DS_Store
 .env.local
