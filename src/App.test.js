@@ -5,7 +5,6 @@ import Adapter from 'enzyme-adapter-react-16';
 import axios from 'axios';
 import App from './App';
 import { API_KEY } from './config/config';
-import { Login } from './containers/Login/LoginForm';
 import Dashboard from './containers/Dashboard/Dashboard';
 import Footer from './containers/Footer/Footer';
 import Sidebar from './containers/Sidebar/Sidebar';
@@ -45,12 +44,6 @@ describe.skip('API', () => {
 describe('App', () => {
   it('shallow renders App without crashing', () => {
     Enzyme.shallow(<App />);
-  });
-});
-
-describe('LoginForm', () => {
-  it('shallow renders LoginForm without crashing', () => {
-    Enzyme.shallow(<Login />);
   });
 });
 
