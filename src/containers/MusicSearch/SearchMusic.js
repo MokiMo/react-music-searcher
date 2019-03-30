@@ -44,6 +44,8 @@ class MusicSearch extends Component {
   search = () => {
     this.props.startLoading();
     const { input, searchLimit } = this.state;
+    if (!API_KEY || API_KEY === '') console.warn('NO API KEY');
+
     axios
       .all([
         axios.get(
@@ -58,7 +60,6 @@ class MusicSearch extends Component {
       ])
       .then(
         axios.spread((tracksRes, albumsRes, artistRes) => {
-          console.log(tracksRes);
           this.props.musicFound({
             tracks: this.addUUID(tracksRes.data.results.trackmatches.track),
             albums: this.addUUID(albumsRes.data.results.albummatches.album),
@@ -68,7 +69,6 @@ class MusicSearch extends Component {
         })
       )
       .catch(err => {
-        console.log(err);
         this.props.errorCaught(err);
       });
   };
