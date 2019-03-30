@@ -9,7 +9,7 @@ import Search from '@material-ui/icons/Search';
 import PropTypes from 'prop-types';
 import uuidv4 from 'uuid/v4';
 import Loading from '../../components/UI/Loading';
-import { API_KEY } from '../../config';
+import { API_KEY } from '../../config/config';
 import appActions from '../../redux/app/actions';
 import { musicFound } from '../../redux/musicSearch/actions';
 
@@ -58,6 +58,7 @@ class MusicSearch extends Component {
       ])
       .then(
         axios.spread((tracksRes, albumsRes, artistRes) => {
+          console.log(tracksRes);
           this.props.musicFound({
             tracks: this.addUUID(tracksRes.data.results.trackmatches.track),
             albums: this.addUUID(albumsRes.data.results.albummatches.album),
@@ -67,6 +68,7 @@ class MusicSearch extends Component {
         })
       )
       .catch(err => {
+        console.log(err);
         this.props.errorCaught(err);
       });
   };

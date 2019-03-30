@@ -1,5 +1,4 @@
-import { all, takeEvery, fork, put } from 'redux-saga/effects';
-import { delay } from 'redux-saga';
+import { all, takeEvery, fork, put, delay } from 'redux-saga/effects';
 import actions from './actions';
 
 export function* resetSaga() {

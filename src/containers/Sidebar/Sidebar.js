@@ -6,7 +6,6 @@ import Divider from '@material-ui/core/Divider';
 import PropTypes from 'prop-types';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
-import Typography from '@material-ui/core/Typography';
 import { mailFolderListItems, otherMailFolderListItems } from './tileData';
 
 const styles = {
@@ -62,10 +61,6 @@ class SideDrawer extends Component {
           >
             {sideList}
             <Divider />
-            <Typography variant="caption" align="center">
-              *Demo routes. <br />
-              Redirect to the start-page.
-            </Typography>
           </div>
         </Drawer>
       </div>
