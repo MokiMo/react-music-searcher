@@ -3,7 +3,6 @@ import MusicNote from '@material-ui/icons/MusicNote';
 import StarIcon from '@material-ui/icons/Star';
 import DynamicImport from '../router/DynamicImport';
 import Loading from '../containers/Loading/Loading';
-import secret from './secret/local';
 
 const secret = process.env.isCI ? {} : require('./secret/local');
 
