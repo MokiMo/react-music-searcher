@@ -8,7 +8,7 @@
 /build
 
 # api-keys
-
+/src/config/secret
 
 # misc
 .DS_Store
