@@ -5,8 +5,8 @@ import DynamicImport from '../router/DynamicImport';
 import Loading from '../containers/Loading/Loading';
 import secret from './secret/local';
 
-const dev = true;
-export const authenticated = !!dev;
+const secret = process.env.isCI ? {} : require('./secret/local');
+
 export const API_KEY = process.env.LAST_FM_API_KEY || secret.LAST_FM_KEY || '';
 
 // Creating new route
