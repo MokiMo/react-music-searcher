@@ -8,28 +8,28 @@ self.__precacheManifest = [
     "url": "/react-music-searcher/static/js/0.d88b4c5c.chunk.js"
   },
   {
-    "revision": "8352b6ee3ad63eae6951",
-    "url": "/react-music-searcher/static/js/main.902003fb.chunk.js"
+    "revision": "e274f35b0a29d6cf80a4",
+    "url": "/react-music-searcher/static/js/main.f3679ed1.chunk.js"
   },
   {
     "revision": "e72543dd845471af6f31",
     "url": "/react-music-searcher/static/js/runtime~main.2e4f2e3a.js"
   },
   {
-    "revision": "d704bb3d579b7d5e40880c75705c8a71",
-    "url": "/react-music-searcher/static/media/roboto-latin-100italic.d704bb3d.woff"
+    "revision": "bc833e725c137257c2c42a789845d82f",
+    "url": "/react-music-searcher/static/media/roboto-latin-900italic.bc833e72.woff"
   },
   {
     "revision": "60ac8cf31c3fd101d502",
     "url": "/react-music-searcher/static/js/4.8d468cd2.chunk.js"
   },
   {
-    "revision": "bc833e725c137257c2c42a789845d82f",
-    "url": "/react-music-searcher/static/media/roboto-latin-900italic.bc833e72.woff"
+    "revision": "7b770d6c53423deb1a8e49d3c9175184",
+    "url": "/react-music-searcher/static/media/roboto-latin-900italic.7b770d6c.woff2"
   },
   {
-    "revision": "749f0f848de0b525b2a8",
-    "url": "/react-music-searcher/static/js/5.02703184.chunk.js"
+    "revision": "ea521bbd835abddf325d",
+    "url": "/react-music-searcher/static/js/5.580303dd.chunk.js"
   },
   {
     "revision": "85438209d47e45b53987",
@@ -264,20 +264,20 @@ self.__precacheManifest = [
     "url": "/react-music-searcher/static/js/63.6067d7d7.chunk.js"
   },
   {
-    "revision": "010c1aeee3c6d1cbb1d5761d80353823",
-    "url": "/react-music-searcher/static/media/roboto-latin-700italic.010c1aee.woff2"
-  },
-  {
-    "revision": "7b770d6c53423deb1a8e49d3c9175184",
-    "url": "/react-music-searcher/static/media/roboto-latin-900italic.7b770d6c.woff2"
-  },
-  {
     "revision": "8c2ade503b34e31430d6c98aa29a52a3",
     "url": "/react-music-searcher/static/media/roboto-latin-900.8c2ade50.woff"
   },
   {
     "revision": "19b7a0adfdd4f808b53af7e2ce2ad4e5",
     "url": "/react-music-searcher/static/media/roboto-latin-900.19b7a0ad.woff2"
+  },
+  {
+    "revision": "846d1890aee87fde5d8ced8eba360c3a",
+    "url": "/react-music-searcher/static/media/roboto-latin-700italic.846d1890.woff"
+  },
+  {
+    "revision": "010c1aeee3c6d1cbb1d5761d80353823",
+    "url": "/react-music-searcher/static/media/roboto-latin-700italic.010c1aee.woff2"
   },
   {
     "revision": "c5e88f1b030a0568edc87875c6baabee",
@@ -288,12 +288,16 @@ self.__precacheManifest = [
     "url": "/react-music-searcher/static/media/roboto-latin-100.987b8457.woff2"
   },
   {
-    "revision": "6232f43d15b0e7a0bf0fe82e295bdd06",
-    "url": "/react-music-searcher/static/media/roboto-latin-100italic.6232f43d.woff2"
-  },
-  {
     "revision": "e9dbbe8a693dd275c16d32feb101f1c1",
     "url": "/react-music-searcher/static/media/roboto-latin-100.e9dbbe8a.woff"
+  },
+  {
+    "revision": "d704bb3d579b7d5e40880c75705c8a71",
+    "url": "/react-music-searcher/static/media/roboto-latin-100italic.d704bb3d.woff"
+  },
+  {
+    "revision": "6232f43d15b0e7a0bf0fe82e295bdd06",
+    "url": "/react-music-searcher/static/media/roboto-latin-100italic.6232f43d.woff2"
   },
   {
     "revision": "55536c8e9e9a532651e3cf374f290ea3",
@@ -352,11 +356,7 @@ self.__precacheManifest = [
     "url": "/react-music-searcher/static/media/roboto-latin-700.cf6613d1.woff"
   },
   {
-    "revision": "846d1890aee87fde5d8ced8eba360c3a",
-    "url": "/react-music-searcher/static/media/roboto-latin-700italic.846d1890.woff"
-  },
-  {
-    "revision": "749f0f848de0b525b2a8",
+    "revision": "ea521bbd835abddf325d",
     "url": "/react-music-searcher/static/css/5.08871317.chunk.css"
   },
   {
@@ -368,7 +368,7 @@ self.__precacheManifest = [
     "url": "/react-music-searcher/json.worker.js"
   },
   {
-    "revision": "78e93bc1ea7545f04f9f61406108122f",
+    "revision": "7189c17937432909effe8eb3688c949c",
     "url": "/react-music-searcher/index.html"
   },
   {
