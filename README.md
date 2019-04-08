@@ -7,24 +7,21 @@
 ### Technologies
 
 - React
-- Redux 
-- Redux Sagas
 - React Router
+- Redux / Sagas
 - Code Splitting
 - Material UI
+- CircleCI
+- Monaco Editor (VSCode)
 
 ------------
 
 
 ### Features
-- React-Router implementation
-- Global store using redux
-- Login scenario mockup
-- Dashboard Navigation
 - **Search for music**
 - **Add them favorites**
-- Polyfilling for older browsers
-- Re-route unknown pages or no auth
+- **Monaco Code Editor (VS-Code)** 
+_doesn't fit this app, but had fun implementing that if I'm really honest_
 
 ------------
 
@@ -33,11 +30,9 @@
 
 - Unit Tests
 - few responsive updates
-- Eye-catchers on Dashboard
-- Optimize layout - Logout for example
-- Backend: Firebase would fit this scope
 - Statistics on data usage, music found, etc.
 - Playable Music - clicking on a found track, just redirects to last.fm
+- add to CI
 
 
 
@@ -47,5 +42,4 @@
 ### Description
 This project contains some of the *key libraries* that make React great and scalable.
 A lot of the used technologies, such as redux, redux sagas and axios are *too much* for a project like this. But they lay the foundation for scaling this app.
-_Fancy stuff like automated deployment after a commit can (soon) be seen at "just-about-everything"_
-**This is not meant to be a complete app, just a demonstration of use-cases of various technologies.**
+**This is not meant to be a complete app, just a demonstration of use-cases of various technologies built.**
