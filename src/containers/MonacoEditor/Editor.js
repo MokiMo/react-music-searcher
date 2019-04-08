@@ -1,14 +1,12 @@
 // Minimalistic monaco editor setup.
 
+// A very nice lib
+// that inspired me: https://github.com/react-monaco-editor/react-monaco-editor
+
 import * as monaco from 'monaco-editor/esm/vs/editor/editor.api';
 import React from 'react';
 
 class MonacoEditor extends React.Component {
-  constructor(props) {
-    super(props);
-    this.containerElement = undefined;
-  }
-
   componentDidMount() {
     this.initMonaco();
   }
@@ -90,17 +88,7 @@ export const fetchRetry = async n => {
   }
 
   render() {
-    const style = {
-      height: '91.3vh',
-    };
-
-    return (
-      <div
-        ref={this.assignRef}
-        style={style}
-        className="react-monaco-editor-container"
-      />
-    );
+    return <div ref={this.assignRef} style={{ height: '91.3vh' }} />;
   }
 }
 
