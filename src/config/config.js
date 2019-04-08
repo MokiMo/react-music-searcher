@@ -6,7 +6,8 @@ import Loading from '../containers/Loading/Loading';
 
 const secret = process.env.isCI ? {} : require('./secret/local');
 
-export const API_KEY = process.env.LAST_FM_API_KEY || secret.LAST_FM_KEY || '';
+// eslint-disable-next-line prefer-destructuring
+export const API_KEY = secret.API_KEY;
 
 // Creating new route
 // 1) new Async-component
@@ -34,16 +35,31 @@ const FavoriteMusic = props => (
   </DynamicImport>
 );
 
+const Dashboard = props => (
+  <DynamicImport load={() => import('../containers/Dashboard/Dashboard')}>
+    {Component => (Component === null ? <Loading /> : <Component {...props} />)}
+  </DynamicImport>
+);
+
+const Editor = props => (
+  <DynamicImport load={() => import('../containers/MonacoEditor')}>
+    {Component => (Component === null ? <Loading /> : <Component {...props} />)}
+  </DynamicImport>
+);
+
 export const routes = [
+  { path: '/', component: Dashboard, exact: true },
   { path: '/searchmusic', component: LayoutSearchMusic },
   { path: '/favoritemusic', component: FavoriteMusic },
+  { path: '/editor', component: Editor },
   { path: '*', component: NotFoundPage },
 ];
 
 export const SidebarTop = [
   { text: 'Search Music', icon: <MusicNote />, route: 'searchmusic' },
+  { text: 'Favorite Music', icon: <MusicNote />, route: 'favoritemusic' },
 ];
 
 export const SidebarBot = [
-  { text: 'Favorite Music', icon: <StarIcon />, route: 'favoritemusic' },
+  { text: 'Monaco Editor (VSCode)', icon: <StarIcon />, route: 'editor' },
 ];
