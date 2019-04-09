@@ -5,6 +5,7 @@
 
 import * as monaco from 'monaco-editor/esm/vs/editor/editor.api';
 import React from 'react';
+import value from './initialCodeValue';
 
 class MonacoEditor extends React.Component {
   componentDidMount() {
@@ -33,41 +34,7 @@ class MonacoEditor extends React.Component {
       cursorStyle: 'line',
       automaticLayout: true,
       language: 'javascript',
-      value: `// minimal microsoft's "monaco editor" (vscode) implementation
-
-// _______________  DEMO CONTENT _______________ 
-
-// Automatically re-try to fetch Data with the fetchRetry helper
-const fn = async () =>  {
-  const res = await fetchRetry(5);
-  console.log(res);
-}
-
-/**
- * @async
- * @param {Number} n amount of times the function will retry to make a async call
- */
-export const fetchRetry = async n => {
-  try {
-    // new Promise = fetch
-    return await new Promise((resolve, reject) => {
-      if (n > 0) {
-        window.setTimeout(() => {
-          reject();
-          console.log("try: " + n);
-        }, Math.random() * 2000);
-      } else {
-        window.setTimeout(() => {
-          resolve('resolved');
-        }, Math.random() * 2000);
-      }
-    });
-  } catch (err) {
-    return fetchRetry(n - 1);
-  }
-};
-
-// _______________  DEMO CONTENT _______________ `,
+      value,
     };
 
     if (this.containerElement) {
