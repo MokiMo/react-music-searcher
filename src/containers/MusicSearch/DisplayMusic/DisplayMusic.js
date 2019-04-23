@@ -2,19 +2,20 @@ import { connect } from 'react-redux';
 import React, { Fragment } from 'react';
 import MapMusic from './MapMusic';
 
-const DisplayMusic = props => (
-  <Fragment>
-    {props.tracks.length > 0 && (
-      <MapMusic tracks={props.tracks} name="tracks" />
-    )}
-    {props.albums.length > 0 && (
-      <MapMusic tracks={props.albums} name="albums" />
-    )}
-    {props.artists.length > 0 && (
-      <MapMusic tracks={props.artists} name="artists" />
-    )}
-  </Fragment>
-);
+function exists(music) {
+  return music.length > 0;
+}
+
+const DisplayMusic = props => {
+  const { tracks, albums, artists } = props;
+  return (
+    <Fragment>
+      {exists(tracks) && <MapMusic tracks={tracks} name="tracks" />}
+      {exists(albums) && <MapMusic tracks={albums} name="albums" />}
+      {exists(artists) && <MapMusic tracks={artists} name="artists" />}
+    </Fragment>
+  );
+};
 
 function mapStateToProps(state) {
   return {
