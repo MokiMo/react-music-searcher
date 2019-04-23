@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{755:function(n,t,e){"use strict";e.r(t);var i=e(0),c=e.n(i),r=e(30),u=e(49);t.default=Object(r.e)(Object(u.withStyles)(function(n){return{Paper:{margin:2*n.spacing.unit,padding:1*n.spacing.unit,textAlign:"center"}}})(function(n){return n.history.push("/searchmusic"),c.a.createElement("div",null)}))}}]);
-//# sourceMappingURL=10.bc3ebf55.chunk.js.map
