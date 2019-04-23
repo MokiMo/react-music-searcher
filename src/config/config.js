@@ -7,7 +7,7 @@ import Loading from '../containers/Loading/Loading';
 const secret = process.env.isCI ? {} : require('./secret/local');
 
 // eslint-disable-next-line prefer-destructuring
-export const API_KEY = secret.API_KEY;
+export const API_KEY = secret.default.config.LAST_FM_KEY;
 
 // Creating new route
 // 1) new Async-component
