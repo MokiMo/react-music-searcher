@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
@@ -21,52 +21,37 @@ const styles = {
   },
 };
 
-class SideDrawer extends Component {
-  state = {
-    open: false,
-  };
-
-  toggleDrawer = open => () => {
-    this.setState({
-      open,
-    });
-  };
-
-  render() {
-    const { classes } = this.props;
-
-    const sideList = (
-      <div className={classes.list}>
-        <List>{mailFolderListItems}</List>
-        <Divider />
-        <List>{otherMailFolderListItems}</List>
-      </div>
-    );
-    return (
-      <div>
-        <IconButton
-          className={classes.menuButton}
-          color="inherit"
-          aria-label="Menu"
-          onClick={this.toggleDrawer(true)}
+const SideDrawer = props => {
+  const [open, setOpen] = useState(false);
+  const { classes } = props;
+  return (
+    <>
+      <IconButton
+        className={classes.menuButton}
+        color="inherit"
+        aria-label="Menu"
+        onClick={() => setOpen(true)}
+      >
+        <MenuIcon />
+      </IconButton>
+      <Drawer open={open} onClose={() => setOpen(false)}>
+        <div
+          tabIndex={0}
+          role="button"
+          onClick={() => setOpen(false)}
+          onKeyDown={() => setOpen(false)}
         >
-          <MenuIcon />
-        </IconButton>
-        <Drawer open={this.state.open} onClose={this.toggleDrawer(false)}>
-          <div
-            tabIndex={0}
-            role="button"
-            onClick={this.toggleDrawer(false)}
-            onKeyDown={this.toggleDrawer(false)}
-          >
-            {sideList}
+          <div className={classes.list}>
+            <List>{mailFolderListItems}</List>
             <Divider />
+            <List>{otherMailFolderListItems}</List>
           </div>
-        </Drawer>
-      </div>
-    );
-  }
-}
+          <Divider />
+        </div>
+      </Drawer>
+    </>
+  );
+};
 
 SideDrawer.propTypes = {
   classes: PropTypes.object.isRequired,
