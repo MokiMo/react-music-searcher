@@ -22,6 +22,7 @@ npm run cypress:open (have the app running for cypress)
 - Material UI
 - CircleCI
 - Monaco Editor (VSCode)
+- E2E-Cypress tests (+few jest tests)
 
 ------------
 
