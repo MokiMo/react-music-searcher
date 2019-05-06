@@ -12,6 +12,11 @@ module.exports = {
   env: {
     "jest/globals": true
   },
+  globals: {
+    "cy": true,
+    "Cypress": true,
+    "context": true
+  },
   rules: {
     "linebreak-style": 0,
     "react/jsx-filename-extension": 0,
@@ -25,6 +30,7 @@ module.exports = {
     "no-console": 0,
     "no-nested-ternary": 0,
     "no-underscore-dangle": 0,
+    "func-names": 0,
     "prettier/prettier": ["error", { singleQuote: true, trailingComma: true }]
   }
 };

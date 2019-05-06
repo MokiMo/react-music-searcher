@@ -12,7 +12,7 @@ const styles = theme => ({
 });
 
 const Dashboard = props => {
-  props.history.push('/searchmusic');
+  // props.history.push('/searchmusic');
   return <div />;
 };
 

@@ -60,6 +60,7 @@ class MusicSearch extends Component {
       ])
       .then(
         axios.spread((tracksRes, albumsRes, artistRes) => {
+          console.log(tracksRes);
           this.props.musicFound({
             tracks: this.addUUID(tracksRes.data.results.trackmatches.track),
             albums: this.addUUID(albumsRes.data.results.albummatches.album),

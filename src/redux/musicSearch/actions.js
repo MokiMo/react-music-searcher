@@ -19,6 +19,7 @@ export function favoriteMusicRemoved(payload) {
 }
 
 export function favoriteMusicAdded(payload) {
+  console.log(payload);
   return {
     type: actions.FAVORITE_MUSIC_ADDED,
     payload,

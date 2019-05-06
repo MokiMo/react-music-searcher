@@ -36,11 +36,11 @@ const FavoriteMusic = props => (
   </DynamicImport>
 );
 
-const Dashboard = props => (
-  <DynamicImport load={() => import('../containers/Dashboard/Dashboard')}>
-    {Component => (Component === null ? <Loading /> : <Component {...props} />)}
-  </DynamicImport>
-);
+// const Dashboard = props => (
+//   <DynamicImport load={() => import('../containers/Dashboard/Dashboard')}>
+//     {Component => (Component === null ? <Loading /> : <Component {...props} />)}
+//   </DynamicImport>
+// );
 
 const Editor = props => (
   <DynamicImport load={() => import('../containers/MonacoEditor')}>
@@ -49,7 +49,7 @@ const Editor = props => (
 );
 
 export const routes = [
-  { path: '/', component: Dashboard, exact: true },
+  // { path: '/', component: Dashboard, exact: true },
   { path: '/searchmusic', component: LayoutSearchMusic },
   { path: '/favoritemusic', component: FavoriteMusic },
   { path: '/editor', component: Editor },

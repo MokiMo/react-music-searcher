@@ -47,11 +47,13 @@ class Favorite extends React.Component {
     const { classes, track } = this.props;
     return this.state.favorite ? (
       <FavoriteIcon
+        cypressId="favoriteIcon"
         className={classes.icon}
         onClick={() => this.removeMusic(track)}
       />
     ) : (
       <FavoriteBorder
+        cypressId="cypress=favoriteIcon"
         className={classes.icon}
         onClick={() => this.addMusic(track)}
       />

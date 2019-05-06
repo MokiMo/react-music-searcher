@@ -1,0 +1,26 @@
+{
+  "name": "Three Days Grace",
+  "artist": "Three Days Grace",
+  "url": "https://www.last.fm/music/Three+Days+Grace/Three+Days+Grace",
+  "image": [
+    {
+      "#text": "https://lastfm-img2.akamaized.net/i/u/34s/56e5ec3aefee5bc42f9074b2350317ec.png",
+      "size": "small"
+    },
+    {
+      "#text": "https://lastfm-img2.akamaized.net/i/u/64s/56e5ec3aefee5bc42f9074b2350317ec.png",
+      "size": "medium"
+    },
+    {
+      "#text": "https://lastfm-img2.akamaized.net/i/u/174s/56e5ec3aefee5bc42f9074b2350317ec.png",
+      "size": "large"
+    },
+    {
+      "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/56e5ec3aefee5bc42f9074b2350317ec.png",
+      "size": "extralarge"
+    }
+  ],
+  "streamable": "0",
+  "mbid": "b5a159ae-5db1-42fb-8a3e-4387406ef00c",
+  "uuid": "c2d0e873-b74c-4195-89dd-65e5747fc84b"
+}
