@@ -4,6 +4,15 @@
 
 # [Demo Video](https://drive.google.com/file/d/1-TsUCK9qQTJq-LpcsdzV4D-03E0o1o6x/view "# Demo Video")
 
+### Local instructions
+```
+git clone react-music-searcher
+cd react-music-searcher
+npm install
+npm start (open localhost:3000 in chrome)
+npm run cypress:open (have the app running for cypress)
+```
+
 ### Technologies
 
 - React
