@@ -2,6 +2,7 @@ import fakeFavorite from './fakeFavorite.json';
 
 describe('search music route', function() {
   it('visits the base url', function() {
+    cy.wait(5000);
     cy.visit('/searchmusic');
 
     cy.url().should('include', '/searchmusic');
