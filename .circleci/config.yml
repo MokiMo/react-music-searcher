@@ -1,28 +1,34 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node:8.12.0
-
+      - image: cypress/base:12.1.0
+        environment:
+          ## this enables colors in the output
+          TERM: xterm
+    working_directory: ~/app
     steps:
       - checkout
-
       # special step to restore the dependency cache
       - restore_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
-
+          keys:
+            - v1-deps-{{ .Branch }}-{{ checksum "package.json" }}
+            - v1-deps-{{ .Branch }}
+            - v1-deps
       - run:
           name: Setup Dependencies
-          command: npm install
-
+          command: npm ci
       # special step to save the dependency cache
-      - save_cache: 
-          key: dependency-cache-{{ checksum "package.json" }}
+      - save_cache:
+          key: v1-deps-{{ .Branch }}-{{ checksum "package.json" }}
+          # cache NPM modules and the folder with the Cypress binary
           paths:
-            - ./node_modules
-            
+            - ~/.npm
+            - ~/.cache
       # run tests
       - run:
           name: Run Test and Coverage
-          command: |
-            npm test -- --coverage
+          command: npm test -- --coverage
+      - run:
+          name: run e2e tests
+          command: npm run ci

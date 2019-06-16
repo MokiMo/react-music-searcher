@@ -37,10 +37,13 @@
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.0",
     "redux-devtools": "^3.5.0",
-    "source-map-explorer": "^2.0.0"
+    "source-map-explorer": "^2.0.0",
+    "start-server-and-test": "^1.9.1"
   },
   "scripts": {
     "cypress:open": "cypress open",
+    "cy:run": "cypress run",
+    "ci": "start-server-and-test start http://localhost:3000 cy:run",
     "analyze": "source-map-explorer build/static/js/main.*",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",

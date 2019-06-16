@@ -3,12 +3,10 @@ import MusicNote from '@material-ui/icons/MusicNote';
 import StarIcon from '@material-ui/icons/Star';
 import DynamicImport from '../router/DynamicImport';
 import Loading from '../containers/Loading/Loading';
-import { get } from '../containers/Utility/helpers';
 
-const secret = process.env.isCI ? {} : require('./secret/local');
-
-// eslint-disable-next-line prefer-destructuring
-export const API_KEY = get(secret, 'default.config.LAST_FM_KEY', '');
+// import secret from './secret/local'
+// export const API_KEY = secret.API_KEY
+export const API_KEY = process.env.LAST_FM_API_KEY;
 
 // Creating new route
 // 1) new Async-component
