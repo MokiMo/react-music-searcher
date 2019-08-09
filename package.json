@@ -38,7 +38,7 @@
     "prettier": "^1.17.0",
     "redux-devtools": "^3.5.0",
     "source-map-explorer": "^2.0.0",
-    "start-server-and-test": "^1.9.1"
+    "start-server-and-test": "^1.10.0"
   },
   "scripts": {
     "cypress:open": "cypress open",
